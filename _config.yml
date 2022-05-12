@@ -1,8 +1,6 @@
 source:      .
 destination: ./_site
 includes:    ./_includes
-baseurl: /jeonghwan.github.io
-url: https://wjdghks950.github.io
 
 collections:
   projects:
