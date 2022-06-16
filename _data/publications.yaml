@@ -36,3 +36,17 @@ papers:
     venue: "arXiv, 2020."
     paper_pdf: "https://arxiv.org/pdf/2110.06620.pdf"
     selected: y
+
+  - title: "Object Classification on raw radar data using convolutional neural networks"
+    image: "/assets/publications/2019_object_clf_radar/image.png"
+    authors: "Heejae Han, <b>Jeonghwan Kim</b>, Junyoung Park, YuJin Lee, Hyunwoo Jo, Yonghyeon Park, Eric T Matson, Seongha Park"
+    paper_pdf: "https://ieeexplore.ieee.org/abstract/document/8706004"
+    venue: "IEEE Sensors Applications Symposium (SAS), 2019"
+    selected: y
+
+  - title: "Towards the development and realization of an undetectable stealth UAV"
+    image: "assets/publications/2019_stealth_uav/image.png"
+    authors: "Jiyeon Oh, Daeun Choe, Chanhui Yun, <b>Jeonghwan Kim</b>, Michael Hopmeier"
+    paper_pdf: "https://ieeexplore.ieee.org/abstract/document/8675601"
+    venue: "Third IEEE International Conference on Robotic Computing, 2019"
+    selected: y
