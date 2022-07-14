@@ -4,6 +4,7 @@ papers:
     image: "/assets/publications/2022_exploiting_numerical-contextual/image.png"
     authors: "<b>Jeonghwan Kim</b>, Junmo Kang, Giwon Hong, Kyung-min Kim, Sung-Hyon Myaeng"
     venue: "In Proceedings of Findings of NAACL, 2022."
+    paper_pdf: "https://aclanthology.org/2022.findings-naacl.138/"
     selected: y
 
   - title: "Leveraging Order-Free Tag Relations for Context-Aware Recommendation"
