@@ -51,3 +51,10 @@ papers:
     paper_pdf: "https://ieeexplore.ieee.org/abstract/document/8675601"
     venue: "Third IEEE International Conference on Robotic Computing, 2019"
     selected: y
+
+  - title: "Autonomous Parking Simulator for Reinforcement Learning"
+    image: "assets/publications/2020_autoparking/image.png"
+    authors: "Hayoung Eom, Jeonghwan Kim, Seungyun Ji, Heeyoul Choi"
+    paper_pdf: "https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE09309873&googleIPSandBox=false&mark=0&useDate=&ipRange=false&accessgl=Y&language=ko_KR&hasTopBanner=true"
+    venue: "Journal of Digital Contents Society"
+    selected: y
