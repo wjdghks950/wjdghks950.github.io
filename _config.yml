@@ -1,6 +1,7 @@
 source:      .
 destination: ./_site
 includes:    ./_includes
+google_analytics: G-CJ8QW43PXP
 
 collections:
   projects:
