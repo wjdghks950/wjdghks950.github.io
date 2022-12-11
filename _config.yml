@@ -1,11 +1,7 @@
 source:      .
 destination: ./_site
 includes:    ./_includes
-measurement_id: G-CJ8QW43PXP
 
 collections:
   projects:
     output: true
-
-analytics:
-    provider: "google-gtag"
