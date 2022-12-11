@@ -5,11 +5,3 @@ includes:    ./_includes
 collections:
   projects:
     output: true
-
-# Analytics
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-CJ8QW43PXP"
-    measurement_id: "G-CJ8QW43PXP"
-    anonymize_ip: # true, false (default)
