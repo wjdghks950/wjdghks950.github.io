@@ -1,7 +1,7 @@
 papers:
   - title: "Graph-Induced Transformers for Efficient Multi-Hop Question Answering"
     image: "/assets/publications/2022_graph_infused_transformer/image.png"
-    paper_pdf: "https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.702/"
+    paper_pdf: "https://aclanthology.org/2022.emnlp-main.702/"
     poster: "/assets/publications/2022_graph_infused_transformer/poster.pdf"
     authors: "Giwon Hong, <b>Jeonghwan Kim</b>, Junmo Kang, Sung-Hyon Myaeng"
     venue: "In Proceedings of EMNLP, 2022."
