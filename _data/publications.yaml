@@ -4,13 +4,13 @@ papers:
     paper_pdf: "https://aclanthology.org/2022.emnlp-main.702/"
     poster: "/assets/publications/2022_graph_infused_transformer/poster.pdf"
     authors: "Giwon Hong, <b>Jeonghwan Kim</b>, Junmo Kang, Sung-Hyon Myaeng"
-    venue: "In Proceedings of EMNLP, 2022."
+    venue: "EMNLP 2022"
     selected: y
 
   - title: "Exploiting Numerical-Contextual Knowledge to Improve Numerical Reasoning in Question Answering"
     image: "/assets/publications/2022_exploiting_numerical-contextual/image.png"
     authors: "<b>Jeonghwan Kim</b>, Junmo Kang, Giwon Hong, Kyung-min Kim, Sung-Hyon Myaeng"
-    venue: "In Proceedings of Findings of NAACL, 2022."
+    venue: "Findings of NAACL 2022"
     paper_pdf: "https://aclanthology.org/2022.findings-naacl.138/"
     poster: "/assets/publications/2022_exploiting_numerical-contextual/poster.pdf"
     selected: y
@@ -18,7 +18,7 @@ papers:
   - title: "Leveraging Order-Free Tag Relations for Context-Aware Recommendation"
     image: "/assets/publications/2021_leveraging_order-free/image.png"
     authors: "Junmo Kang, <b>Jeonghwan Kim</b>, Suwon Shin, Sung-Hyon Myaeng"
-    venue: "In Proceedings of EMNLP, 2021."
+    venue: "EMNLP 2021"
     paper_pdf: "https://aclanthology.org/2021.emnlp-main.279.pdf"
     poster: "/assets/publications/2021_leveraging_order-free/SOG_poster.pdf"
     selected: y
@@ -26,7 +26,7 @@ papers:
   - title: "Have You Seen That Number? Investigating Extrapolation in Question Answering Models"
     image: "/assets/publications/2021_have_you_seen/image.png"
     authors: "<b>Jeonghwan Kim</b>, Giwon Hong, Kyung-min Kim, Junmo Kang, Sung-Hyon Myaeng"
-    venue: "In Proceedings of EMNLP, 2021."
+    venue: "EMNLP 2021"
     paper_pdf: "https://aclanthology.org/2021.emnlp-main.563.pdf"
     poster: "/assets/publications/2021_have_you_seen/haveyouseennum_emnlp2021_poster.pdf"
     selected: y
@@ -34,7 +34,7 @@ papers:
   - title: "Can You Distinguish Truthful from Fake Reviews? User Analysis and Assistance Tool for Fake Review Detection"
     image: "/assets/publications/2021_can_you_distinguish/image.png"
     authors: "<b>Jeonghwan Kim<sup>*</sup></b>, Junmo Kang<sup>*</sup>, Suwon Shin<sup>*</sup>, Sung-Hyon Myaeng"
-    venue: "In Proceedings of HCI+NLP@EACL, 2021."
+    venue: "HCI+NLP | EACL 2021"
     paper_pdf: "https://aclanthology.org/2021.hcinlp-1.9.pdf"
     poster: "/assets/publications/2021_can_you_distinguish/eacl_poster.pdf"
     selected: y
@@ -42,7 +42,7 @@ papers:
   - title: "Maximizing Efficiency of Language Model Pre-training for Learning Representation"
     image: "/assets/publications/2020_maximizing_efficiency/image.png"
     authors: "Junmo Kang<sup>*</sup>, Suwon Shin<sup>*</sup>, <b>Jeonghwan Kim<sup>*</sup></b>, Jaeyoung Jo<sup>*</sup>, Sung-Hyon Myaeng"
-    venue: "arXiv, 2020."
+    venue: "arXiv 2020"
     paper_pdf: "https://arxiv.org/pdf/2110.06620.pdf"
     selected: y
 
