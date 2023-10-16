@@ -1,4 +1,12 @@
 papers:
+  - title: "FinePrompt: Unveiling the Role of Finetuned Inductive Bias on Compositional Reasoning in GPT-4"
+    image: "/assets/publications/2023_fineprompt/image.png"
+    paper_pdf: "https://aclanthology.org/2022.emnlp-main.702/"
+    poster: "/assets/publications/2022_graph_infused_transformer/poster.pdf"
+    authors: "<b>Jeonghwan Kim</b>, Giwon Hong, Sung-Hyon Myaeng, Joyce Jiyoung Whang"
+    venue: "Findings of EMNLP 2023"
+    selected: y
+
   - title: "Graph-Induced Transformers for Efficient Multi-Hop Question Answering"
     image: "/assets/publications/2022_graph_infused_transformer/image.png"
     paper_pdf: "https://aclanthology.org/2022.emnlp-main.702/"
