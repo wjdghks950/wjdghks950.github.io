@@ -1,9 +1,23 @@
 papers:
+  - title: "Finer: Investigating and Enhancing Fine-Grained Visual Concept Recognition in Large Vision Language Models"
+    image: "/assets/publications/2024_finer/image.png"
+    paper_pdf: "https://arxiv.org/abs/2402.16315"
+    authors: "<b>Jeonghwan Kim</b>, Heng Ji"
+    venue: "Preprint"
+    selected: y
+
+  - title: "Discern and Answer: Mitigating the Impact of Misinformation in Retrieval-Augmented Models with Discriminators"
+    image: "/assets/publications/2024_whysogullible/image.png"
+    paper_pdf: "https://arxiv.org/abs/2305.01579"
+    authors: "Giwon Hong*, <b>Jeonghwan Kim*</b>, Junmo Kang*, Sung-Hyon Myaeng, Joyce Jiyoung Whang"
+    venue: "Preprint"
+    selected: y
+
   - title: "FinePrompt: Unveiling the Role of Finetuned Inductive Bias on Compositional Reasoning in GPT-4"
     image: "/assets/publications/2023_fineprompt/image.png"
     paper_pdf: "https://aclanthology.org/2022.emnlp-main.702/"
     poster: "/assets/publications/2022_graph_infused_transformer/poster.pdf"
-    authors: "<b>Jeonghwan Kim</b>, Giwon Hong, Sung-Hyon Myaeng, Joyce Jiyoung Whang"
+    authors: "<b>Jeonghwan Kim*</b>, Giwon Hong*, Sung-Hyon Myaeng, Joyce Jiyoung Whang"
     venue: "Findings of EMNLP 2023"
     selected: y
 
