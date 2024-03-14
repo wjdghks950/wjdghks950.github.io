@@ -10,7 +10,7 @@ papers:
     image: "/assets/publications/2024_whysogullible/image.png"
     paper_pdf: "https://arxiv.org/abs/2305.01579"
     authors: "Giwon Hong*, <b>Jeonghwan Kim*</b>, Junmo Kang*, Sung-Hyon Myaeng, Joyce Jiyoung Whang"
-    venue: "Preprint"
+    venue: "Findings of NAACL 2024"
     selected: y
 
   - title: "FinePrompt: Unveiling the Role of Finetuned Inductive Bias on Compositional Reasoning in GPT-4"
