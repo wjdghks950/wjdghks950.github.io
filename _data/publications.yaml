@@ -6,7 +6,7 @@ papers:
     venue: "Preprint"
     selected: y
 
-  - title: "Discern and Answer: Mitigating the Impact of Misinformation in Retrieval-Augmented Models with Discriminators"
+  - title: "Why So Gullible? Enhancing the Robustness of Retrieval-Augmented Models against Counterfactual Noise"
     image: "/assets/publications/2024_whysogullible/image.png"
     paper_pdf: "https://arxiv.org/abs/2305.01579"
     authors: "Giwon Hong*, <b>Jeonghwan Kim*</b>, Junmo Kang*, Sung-Hyon Myaeng, Joyce Jiyoung Whang"
