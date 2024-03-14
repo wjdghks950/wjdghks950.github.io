@@ -1,6 +1,6 @@
 projects:
-  - title: 
-    subtitle: 
-    thumbnail: 
-    url: 
+  - title: "Why So Gullible? Enhancing the Robustness of Retrieval-Augmented Models against Counterfactual Noise"
+    subtitle: Giwon Hong*, <b>Jeonghwan Kim*</b>, Junmo Kang*, Sung-Hyon Myaeng, Joyce Jiyoung Whang
+    thumbnail: "/_projects/2024_naacl_discernanswer/static/images/figure1_v2.jpg
+    url: "_projects/2024_naacl_discernanswer/index.html"
     selected: y
