@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Why So Gullible? Enhancing the Robustness of Retrieval-Augmented Models against Counterfactual Noise</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Why So Gullible? Enhancing the Robustness of Retrieval-Augmented Models against Counterfactual Noise</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <div>
+              <span class="author-block">
+                <a href="https://honggiwon.github.io/" target="_blank">Giwon Hong</a><sup>*1</sup>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+              <span class="author-block">
+                <a href="https://wjdghks950.github.io/" target="_blank">Jeonghwan Kim</a><sup>*2</sup>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+              <span class="author-block">
+                <a href="https://jm-kang.github.io/" target="_blank">Junmo Kang</a><sup>*3</sup>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+              </div>
+              <div>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=6pdKebMAAAAJ&hl=ko" target="_blank">Sung-Hyon Myaeng</a><sup>4</sup>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+              <span class="author-block">
+                <a href="https://bdi-lab.kaist.ac.kr/#" target="_blank">Joyce Jiyoung Whang</a><sup>†4</sup></span>
+              </div>
+              </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>University of Edinburgh&nbsp;&nbsp;&nbsp;&nbsp;<sup>2</sup>UIUC&nbsp;&nbsp;&nbsp;&nbsp;<sup>3</sup>Georgia Tech&nbsp;&nbsp;&nbsp;&nbsp;<sup>4</sup>KAIST<br>NAACL 2024 (Findings; Long)</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Equal contribution.</small></span>
+                    <span class="eql-cntrb"><small><br><sup>†</sup>Corresponding author: jjwhang@kaist.ac.kr</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/abs/2305.01579" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="ai ai-arxiv"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/wjdghks950/Discern-and-Answer" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+
+                  <!-- Supplementary PDF link -->
+                  <span class="link-block">
+                    <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      🤗
+                    </span>
+                    <span>Dataset</span>
+                  </a>
+                </span>
+
+                <!-- Supplementary PDF link -->
+                <span class="link-block">
+                  <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    🤗
+                  </span>
+                  <span>Model</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Most existing retrieval-augmented language models (LMs) assume a naive dichotomy within a retrieved document set: query-relevance and irrelevance. Our work investigates a more challenging scenario in which even the "relevant" documents may contain misleading or incorrect information, causing conflict among the retrieved documents and thereby negatively influencing model decisions as noise. We observe that existing LMs are highly brittle to the presence of conflicting information in both the fine-tuning and in-context few-shot learning scenarios. We propose approaches for handling knowledge conflicts among retrieved documents by explicitly fine-tuning a discriminator or prompting GPT-3.5 to elicit its discriminative capability. Our empirical results on open-domain QA show that these approaches significantly enhance model robustness. We also provide our findings on incorporating the fine-tuned discriminator's decision into the in-context learning process, proposing a way to exploit the benefits of two disparate learning schemes. Alongside our findings, we provide MacNoise, a machine-generated, conflict-induced dataset to further encourage research in this direction.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="content has-text-justified">
+          <p style="text-align: center">
+            <img src="static/images/figure1_v2.jpg" style="max-width: 60%;" alt="MY ALT TEXT"/>
+          </p>
+        </div>
+        <h2 class="is-centered">
+          Figure 1: In an ODQA setting, (a) a question is used to retrieve a set of (b) relevant documents which may contain conflict-causing documents that render (c) the retrieval-augmented LMs unreliable.
+          </h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Discern and Answer</h2>
+        <div class="content has-text-justified">
+          <p>
+            We propose a method called "Discern and Answer" that injects inductive bias about whether a document may be perturbed or not into a retrieval-augmented LM improves model robustness to conflicting information in QA.
+We equip a QA model with a discriminator learned jointly with a QA task, to interpolate the discriminative features with the encoder embeddings so the decoder can capture such a bias when deriving an answer (Figure 2 (a)). 
+Besides fine-tuning, we explore the potential to elicit GPT-3.5's discriminability through in-context instruction, by letting the model explicitly discern before answering (Figure 2 (b)) or injecting fine-tuned model's output into a prompt (Figure 2 (c)).
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="content has-text-justified">
+          <p style="text-align: center">
+            <img src="static/images/main_figure_v4.jpg" alt="MY ALT TEXT"/>
+          </p>
+        </div>
+        <h2 class="is-centered">
+          Figure 2: Illustration of our approaches to enhancing robustness to counterfactual noise. (a) Along with the decoder, the discriminator is jointly trained with the downstream task (QA), making the encoder produce corrupt-aware embeddings. (b) GPT-3.5 is prompted to find the perturbed documents before generating an answer. A zero-shot example is shown for brevity. (c) Fine-tuned discriminator output is injected into the prompt for GPT-3.5.
+          </h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">MacNoise</h2>
+        <div class="content has-text-justified">
+          <p>
+            We construct a new LLM-generated counterfactual dataset, MacNoise, a <b>Mac</b>hine-Generated <b>Noise</b> dataset for ODQA containing knowledge conflicts among evidence documents to study the robustness of retrieval-augmented LLMs. 
+            MacNoise aims to provide more realistic knowledge conflict scenarios compared to the previous entity-centric perturbation framework, addressing limitations such as context mismatch and confined noise type.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">MacNoise vs. Entity-swap Perturbation</h2>
+        Our MacNoise benchmark generates more realistic, semantically consistent texts as counterfactual noise, unlike previous entity-swap based perturbation framework.
+      </br></br></br>
+        <div class="content has-text-justified">
+          <p style="text-align: center">
+            <img src="static/images/macnoise_case.png" alt="MY ALT TEXT"/>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Our proposed method greatly enhances the robustness of retrieval-augmented LMs when confronted to noise.</h2>
+        Our MacNoise represents a challenging benchmark, and existing models appear to be highly brittle to conflicting information. Our "Discern and Answer" method substantially improves the robustness to the noise, and the capability learend through our method is transferable to other datasets.
+      </br></br></br>
+        <div class="content has-text-justified">
+          <p style="text-align: center">
+            <img src="static/images/main_results.jpg" alt="MY ALT TEXT"/>
+            <img src="static/images/transferabililty.jpg" style="max-width: 50%;" alt="MY ALT TEXT"/>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@misc{hong2024why,
+  title={Why So Gullible? Enhancing the Robustness of Retrieval-Augmented Models against Counterfactual Noise},
+  author={Giwon Hong and Jeonghwan Kim and Junmo Kang and Sung-Hyon Myaeng and Joyce Jiyoung Whang},
+  year={2024},
+  eprint={2305.01579},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
