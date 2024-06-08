@@ -1,5 +1,11 @@
 experiences:
-- place: "University of Illinois Urbana-Champaign"
+- place: "Amazon"
+  time: "May. 2024 - Present"
+  title: "Applied Scientist"
+  subtitle: "Multimodal Representation Learning"
+  category: "school"
+
+- place: "UIUC"
   time: "Aug. 2023 - Present"
   title: "Ph.D. in Computer Science"
   subtitle: "BLENDER Lab"
