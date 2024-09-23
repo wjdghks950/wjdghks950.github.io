@@ -3,7 +3,7 @@ papers:
     image: "/assets/publications/2024_finer/image.png"
     paper_pdf: "https://arxiv.org/abs/2402.16315"
     authors: "<b>Jeonghwan Kim</b>, Heng Ji"
-    venue: "Preprint"
+    venue: "EMNLP 2024"
     selected: y
 
   - title: "Why So Gullible? Enhancing the Robustness of Retrieval-Augmented Models against Counterfactual Noise"
