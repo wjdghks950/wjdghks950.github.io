@@ -13,6 +13,20 @@ papers:
     venue: "NAACL 2024, Findings"
     selected: y
 
+  - title: "Aligning LLMs with Individual Preferences via Interaction"
+    image: "/assets/publications/2024_aloe/image.png"
+    paper_pdf: "https://arxiv.org/abs/2410.03642"
+    authors: "Shujin Wu, May Fung, Cheng Qian, <b>Jeonghwan Kim</b>, Dilek Hakkani-Tur, Heng Ji"
+    venue: "COLING 2024"
+    selected: y
+
+  - title: "ARMADA: Attribute-Based Multimodal Data Augmentation"
+    image: "/assets/publications/2024_armada/image.png"
+    paper_pdf: "https://aclanthology.org/2024.wikinlp-1.17.pdf"
+    authors: "Xiaomeng Jin, <b>Jeonghwan Kim</b>, Yu Zhou, Kuan-Hao Huang, Te-Lin Wu, Nanyun Peng, Heng Ji"
+    venue: "EMNLP 2024 Workshop @ WikiNLP"
+    selected: y
+
   - title: "FinePrompt: Unveiling the Role of Finetuned Inductive Bias on Compositional Reasoning in GPT-4"
     image: "/assets/publications/2023_fineprompt/image.png"
     paper_pdf: "https://aclanthology.org/2022.emnlp-main.702/"
@@ -66,25 +80,25 @@ papers:
     authors: "Junmo Kang<sup>*</sup>, Suwon Shin<sup>*</sup>, <b>Jeonghwan Kim<sup>*</sup></b>, Jaeyoung Jo<sup>*</sup>, Sung-Hyon Myaeng"
     venue: "arXiv 2020"
     paper_pdf: "https://arxiv.org/pdf/2110.06620.pdf"
-    selected: y
+    selected: n
 
   - title: "Object Classification on raw radar data using convolutional neural networks"
     image: "/assets/publications/2019_object_clf_radar/image.png"
     authors: "Heejae Han, <b>Jeonghwan Kim</b>, Junyoung Park, YuJin Lee, Hyunwoo Jo, Yonghyeon Park, Eric T Matson, Seongha Park"
     paper_pdf: "https://ieeexplore.ieee.org/abstract/document/8706004"
     venue: "IEEE Sensors Applications Symposium (SAS), 2019"
-    selected: y
+    selected: n
 
   - title: "Towards the development and realization of an undetectable stealth UAV"
     image: "assets/publications/2019_stealth_uav/image.png"
     authors: "Jiyeon Oh, Daeun Choe, Chanhui Yun, <b>Jeonghwan Kim</b>, Michael Hopmeier"
     paper_pdf: "https://ieeexplore.ieee.org/abstract/document/8675601"
     venue: "Third IEEE International Conference on Robotic Computing, 2019"
-    selected: y
+    selected: n
 
   - title: "Autonomous Parking Simulator for Reinforcement Learning"
     image: "assets/publications/2020_autoparking/image.png"
     authors: "Hayoung Eom, Jeonghwan Kim, Seungyun Ji, Heeyoul Choi"
     paper_pdf: "https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE09309873&googleIPSandBox=false&mark=0&useDate=&ipRange=false&accessgl=Y&language=ko_KR&hasTopBanner=true"
     venue: "Journal of Digital Contents Society"
-    selected: y
+    selected: n
