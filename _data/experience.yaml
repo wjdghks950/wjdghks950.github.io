@@ -1,7 +1,13 @@
 experiences:
+- place: "Meta"
+  time: "May. 2025 - Aug. 2025"
+  title: "Research Scientist Intern"
+  subtitle: "RAG + LLM"
+  category: "industry"
+
 - place: "Amazon"
   time: "May. 2024 - Aug. 2024"
-  title: "Applied Scientist"
+  title: "Applied Scientist Intern"
   subtitle: "Multimodal Representation Learning"
   category: "industry"
 

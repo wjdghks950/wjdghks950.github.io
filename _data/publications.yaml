@@ -27,13 +27,6 @@ papers:
     venue: "NAACL 2024, Findings"
     selected: y
 
-  - title: "Aligning LLMs with Individual Preferences via Interaction"
-    image: "/assets/publications/2024_aloe/image.png"
-    paper_pdf: "https://arxiv.org/abs/2410.03642"
-    authors: "Shujin Wu, May Fung, Cheng Qian, <b>Jeonghwan Kim</b>, Dilek Hakkani-Tur, Heng Ji"
-    venue: "COLING 2024"
-    selected: y
-
   - title: "ARMADA: Attribute-Based Multimodal Data Augmentation"
     image: "/assets/publications/2024_armada/image.png"
     paper_pdf: "https://aclanthology.org/2024.wikinlp-1.17.pdf"
