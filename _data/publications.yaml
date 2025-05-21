@@ -1,4 +1,25 @@
 papers:
+  - title: "PARTONOMY: Large Multimodal Models with Part-Level Visual Understanding"
+    image: "/assets/publications/2025_partonomy/image.png"
+    paper_pdf: "https://arxiv.org/abs/2503.01439"
+    authors: "Ansel Blume*, <b>Jeonghwan Kim*</b>, Hyeonjeong Ha, Elen Chatikyan, Xiaomeng Jin, Khanh Duy Nguyen, Nanyun Peng, Kai-Wei Chang, Derek Hoiem and Heng Ji"
+    venue: "Preprint"
+    selected: y
+
+  - title: "Search and Detect: Training-Free Long Tail Object Detection via Web-Image Retrieval"
+    image: "/assets/publications/2025_search_and_detect/image.png"
+    paper_pdf: "https://arxiv.org/abs/2409.18733"
+    authors: "Mankeerat Sidhu, Hetarth Chopra, Ansel Blume, <b>Jeonghwan Kim</b>, Revanth Gangi Reddy, Heng Ji"
+    venue: "CVPR 2025"
+    selected: y
+
+  - title: "SYNTHIA: Novel Concept Design with Affordance Composition"
+    image: "/assets/publications/2025_synthia/image.png"
+    paper_pdf: "https://arxiv.org/abs/2502.17793"
+    authors: "Hyeonjeong Ha, Xiaomeng Jin, <b>Jeonghwan Kim</b>, Jiateng Liu, Zhenhailong Wang, Khanh Duy Nguyen, Ansel Blume, Nanyun Peng, Kai-Wei Chang, Heng Ji"
+    venue: "ACL 2025"
+    selected: y
+
   - title: "Infogent: An Agent-Based Framework for Web Information Aggregation"
     image: "/assets/publications/2025_infogent/image.png"
     paper_pdf: "https://arxiv.org/abs/2410.19054"
