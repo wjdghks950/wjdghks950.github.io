@@ -1,7 +1,7 @@
 papers:
   - title: "PARTONOMY: Large Multimodal Models with Part-Level Visual Understanding"
     image: "/assets/publications/2025_partonomy/image.png"
-    paper_pdf: "https://arxiv.org/abs/2503.01439"
+    paper_pdf: "https://arxiv.org/pdf/2505.20759"
     authors: "Ansel Blume*, <b>Jeonghwan Kim*</b>, Hyeonjeong Ha, Elen Chatikyan, Xiaomeng Jin, Khanh Duy Nguyen, Nanyun Peng, Kai-Wei Chang, Derek Hoiem and Heng Ji"
     venue: "Preprint"
     selected: y
