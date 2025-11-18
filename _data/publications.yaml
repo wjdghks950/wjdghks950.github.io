@@ -3,7 +3,7 @@ papers:
     image: "/assets/publications/2025_partonomy/image.png"
     paper_pdf: "https://arxiv.org/pdf/2505.20759"
     authors: "Ansel Blume*, <b>Jeonghwan Kim*</b>, Hyeonjeong Ha, Elen Chatikyan, Xiaomeng Jin, Khanh Duy Nguyen, Nanyun Peng, Kai-Wei Chang, Derek Hoiem and Heng Ji"
-    venue: "Preprint"
+    venue: "NeurIPS 2025 (Spotlight)"
     selected: y
 
   - title: "Search and Detect: Training-Free Long Tail Object Detection via Web-Image Retrieval"
