@@ -13,6 +13,28 @@ h4 {
 .main-description .fa {
   font-size: 22px;
   margin-top: 5px; }
+.cv-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #222;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 1;
+  color: #222;
+  background: #fff;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.cv-icon:hover {
+  background: #33C3F0;
+  color: #fff;
+  border-color: #33C3F0;
+}
 .paper {
   margin-bottom: 20px }
 .paper .title {
