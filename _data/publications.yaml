@@ -1,4 +1,11 @@
 papers:
+  - title: "Constructive Distortion: Improving MLLMs with Attention-Guided Image Warping"
+    image: "/assets/publications/2026_attnwarp/image.png"
+    paper_pdf: "https://arxiv.org/abs/2510.09741"
+    authors: "Dwip Dalal, Gautam Vashishtha, Utkarsh Mishra, <b>Jeonghwan Kim</b>, Madhav Kanda, Hyeonjeong Ha, Svetlana Lazebnik, Heng Ji, Unnat Jain"
+    venue: "ICLR 2026"
+    selected: y
+
   - title: "PARTONOMY: Large Multimodal Models with Part-Level Visual Understanding"
     image: "/assets/publications/2025_partonomy/image.png"
     paper_pdf: "https://arxiv.org/pdf/2505.20759"
