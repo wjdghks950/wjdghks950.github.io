@@ -1,6 +1,18 @@
 experiences:
 - place: "Meta"
-  time: "May 2025 - Present"
+  time: "May 2026 - Present"
+  title: "Research Scientist (intern)"
+  subtitle: "Multimodal LLM"
+  category: "industry"
+
+- place: "Medicas AI"
+  time: "Jan 2026 - Present"
+  title: "Founding Engineer"
+  subtitle: "Multimodal Representation Learning"
+  category: "industry"
+
+- place: "Meta"
+  time: "May 2025 - Oct 2025"
   title: "Research Scientist (intern)"
   subtitle: "Multimodal RAG + MLLM"
   category: "industry"
