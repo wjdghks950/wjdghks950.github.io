@@ -3,7 +3,14 @@ papers:
     image: "/assets/publications/2026_pixsearch/image.png"
     paper_pdf: "https://arxiv.org/abs/2601.19060"
     authors: "<b>Jeonghwan Kim</b>, Renjie Tao, Sanat Sharma, Jiaqi Wang, Kai Sun, Zhaojiang Lin, Seungwhan Moon, Lambert Mathias, Anuj Kumar, Heng Ji, Xin Luna Dong"
-    venue: "Arxiv Preprint, 2026"
+    venue: "Preprint, 2026"
+    selected: y
+
+  - title: "Alignment-Aware Training for Generalizable VLAs"
+    image: "/assets/publications/2026_alignment_vla/image.gif"
+    paper_pdf: "https://arxiv.org/abs/2510.09741"
+    authors: "Dwip Dalal, Shivansh Patel, <b>Jeonghwan Kim</b>, Utkarsh Mishra, Alex Baratian, Hyeonjeong Ha, Heng Ji, Svetlana Lazebnik, Unnat Jain"
+    venue: "Preprint, 2026"
     selected: y
 
   - title: "Constructive Distortion: Improving MLLMs with Attention-Guided Image Warping"
@@ -17,21 +24,7 @@ papers:
     image: "/assets/publications/2025_partonomy/image.png"
     paper_pdf: "https://arxiv.org/pdf/2505.20759"
     authors: "Ansel Blume*, <b>Jeonghwan Kim*</b>, Hyeonjeong Ha, Elen Chatikyan, Xiaomeng Jin, Khanh Duy Nguyen, Nanyun Peng, Kai-Wei Chang, Derek Hoiem and Heng Ji"
-    venue: "NeurIPS 2025 (Spotlight)"
-    selected: y
-
-  - title: "Search and Detect: Training-Free Long Tail Object Detection via Web-Image Retrieval"
-    image: "/assets/publications/2025_search_and_detect/image.png"
-    paper_pdf: "https://arxiv.org/abs/2409.18733"
-    authors: "Mankeerat Sidhu, Hetarth Chopra, Ansel Blume, <b>Jeonghwan Kim</b>, Revanth Gangi Reddy, Heng Ji"
-    venue: "CVPR 2025"
-    selected: y
-
-  - title: "SYNTHIA: Novel Concept Design with Affordance Composition"
-    image: "/assets/publications/2025_synthia/image.png"
-    paper_pdf: "https://arxiv.org/abs/2502.17793"
-    authors: "Hyeonjeong Ha, Xiaomeng Jin, <b>Jeonghwan Kim</b>, Jiateng Liu, Zhenhailong Wang, Khanh Duy Nguyen, Ansel Blume, Nanyun Peng, Kai-Wei Chang, Heng Ji"
-    venue: "ACL 2025"
+    venue: 'NeurIPS 2025 <span style="color: #c62828;">(Spotlight)</span>'
     selected: y
 
   - title: "Infogent: An Agent-Based Framework for Web Information Aggregation"
@@ -39,13 +32,6 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2410.19054"
     authors: "Revanth Gangi Reddy*, Sagnik Mukherjee*, <b>Jeonghwan Kim*</b>, Zhenhailong Wang*, Dilek Hakkani-Tur, Heng Ji"
     venue: "NAACL 2025, Findings"
-    selected: y
-
-  - title: "Aligning LLMs with Individual Preferences via Interaction"
-    image: "/assets/publications/2025_aloe/image.png"
-    paper_pdf: "https://arxiv.org/abs/2410.03642"
-    authors: "Shujin Wu, May Fung, Cheng Qian, <b>Jeonghwan Kim</b>, Dilek Hakkani-Tur and Heng Ji"
-    venue: "COLING 2025"
     selected: y
 
   - title: "Finer: Investigating and Enhancing Fine-Grained Visual Concept Recognition in Large Vision Language Models"
@@ -62,11 +48,12 @@ papers:
     venue: "NAACL 2024, Findings"
     selected: y
 
-  - title: "ARMADA: Attribute-Based Multimodal Data Augmentation"
-    image: "/assets/publications/2024_armada/image.png"
-    paper_pdf: "https://aclanthology.org/2024.wikinlp-1.17.pdf"
-    authors: "Xiaomeng Jin, <b>Jeonghwan Kim</b>, Yu Zhou, Kuan-Hao Huang, Te-Lin Wu, Nanyun Peng, Heng Ji"
-    venue: "EMNLP 2024 Workshop @ WikiNLP"
+  - title: "Exploiting Numerical-Contextual Knowledge to Improve Numerical Reasoning in Question Answering"
+    image: "/assets/publications/2022_exploiting_numerical-contextual/image.png"
+    authors: "<b>Jeonghwan Kim</b>, Junmo Kang, Giwon Hong, Kyung-min Kim, Sung-Hyon Myaeng"
+    venue: "NAACL 2022, Findings"
+    paper_pdf: "https://aclanthology.org/2022.findings-naacl.138/"
+    poster: "/assets/publications/2022_exploiting_numerical-contextual/poster.pdf"
     selected: y
 
   - title: "FinePrompt: Unveiling the Role of Finetuned Inductive Bias on Compositional Reasoning in GPT-4"
@@ -85,22 +72,6 @@ papers:
     venue: "EMNLP 2022"
     selected: y
 
-  - title: "Exploiting Numerical-Contextual Knowledge to Improve Numerical Reasoning in Question Answering"
-    image: "/assets/publications/2022_exploiting_numerical-contextual/image.png"
-    authors: "<b>Jeonghwan Kim</b>, Junmo Kang, Giwon Hong, Kyung-min Kim, Sung-Hyon Myaeng"
-    venue: "NAACL 2022, Findings"
-    paper_pdf: "https://aclanthology.org/2022.findings-naacl.138/"
-    poster: "/assets/publications/2022_exploiting_numerical-contextual/poster.pdf"
-    selected: y
-
-  - title: "Leveraging Order-Free Tag Relations for Context-Aware Recommendation"
-    image: "/assets/publications/2021_leveraging_order-free/image.png"
-    authors: "Junmo Kang, <b>Jeonghwan Kim</b>, Suwon Shin, Sung-Hyon Myaeng"
-    venue: "EMNLP 2021"
-    paper_pdf: "https://aclanthology.org/2021.emnlp-main.279.pdf"
-    poster: "/assets/publications/2021_leveraging_order-free/SOG_poster.pdf"
-    selected: y
-
   - title: "Have You Seen That Number? Investigating Extrapolation in Question Answering Models"
     image: "/assets/publications/2021_have_you_seen/image.png"
     authors: "<b>Jeonghwan Kim</b>, Giwon Hong, Kyung-min Kim, Junmo Kang, Sung-Hyon Myaeng"
@@ -109,13 +80,79 @@ papers:
     poster: "/assets/publications/2021_have_you_seen/haveyouseennum_emnlp2021_poster.pdf"
     selected: y
 
+  - title: "MM-PoisonRAG: Disrupting Multimodal RAG with Local and Global Poisoning Attacks"
+    image: "/assets/publications/2026_mm_poisonrag/image.png"
+    paper_pdf: "https://arxiv.org/abs/2502.17832"
+    authors: "Hyeonjeong Ha*, Qiusi Zhan*, <b>Jeonghwan Kim</b>, Dimitrios Bralios, Saikrishna Sanniboina, Nanyun Peng, Kai-wei Chang, Heng Ji"
+    venue: "ACL 2026"
+    selected: n
+
+  - title: "PEARL: Self-Evolving Assistant for Time Management with Reinforcement Learning"
+    image: "/assets/publications/2026_pearl/image.png"
+    paper_pdf: "https://arxiv.org/pdf/2601.11957"
+    authors: "Bingxuan Li, <b>Jeonghwan Kim</b>, Cheng Qian, Xiusi Chen, Eitan Anzenberg, Niran Kundapur, Heng Ji"
+    venue: "ACL 2026"
+    selected: n
+
+  - title: "Search and Detect: Training-Free Long Tail Object Detection via Web-Image Retrieval"
+    image: "/assets/publications/2025_search_and_detect/image.png"
+    paper_pdf: "https://arxiv.org/abs/2409.18733"
+    authors: "Mankeerat Sidhu, Hetarth Chopra, Ansel Blume, <b>Jeonghwan Kim</b>, Revanth Gangi Reddy, Heng Ji"
+    venue: "CVPR 2025"
+    selected: n
+
+  - title: "SYNTHIA: Novel Concept Design with Affordance Composition"
+    image: "/assets/publications/2025_synthia/image.png"
+    paper_pdf: "https://arxiv.org/abs/2502.17793"
+    authors: "Hyeonjeong Ha, Xiaomeng Jin, <b>Jeonghwan Kim</b>, Jiateng Liu, Zhenhailong Wang, Khanh Duy Nguyen, Ansel Blume, Nanyun Peng, Kai-Wei Chang, Heng Ji"
+    venue: "ACL 2025"
+    selected: n
+
+  - title: "Aligning LLMs with Individual Preferences via Interaction"
+    image: "/assets/publications/2025_aloe/image.png"
+    paper_pdf: "https://arxiv.org/abs/2410.03642"
+    authors: "Shujin Wu, May Fung, Cheng Qian, <b>Jeonghwan Kim</b>, Dilek Hakkani-Tur and Heng Ji"
+    venue: "COLING 2025"
+    selected: n
+
+  - title: "ARMADA: Attribute-Based Multimodal Data Augmentation"
+    image: "/assets/publications/2024_armada/image.png"
+    paper_pdf: "https://aclanthology.org/2024.wikinlp-1.17.pdf"
+    authors: "Xiaomeng Jin, <b>Jeonghwan Kim</b>, Yu Zhou, Kuan-Hao Huang, Te-Lin Wu, Nanyun Peng, Heng Ji"
+    venue: "EMNLP 2024 Workshop @ WikiNLP"
+    selected: n
+
+  - title: "Graph-Induced Transformers for Efficient Multi-Hop Question Answering"
+    image: "/assets/publications/2022_graph_infused_transformer/image.png"
+    paper_pdf: "https://aclanthology.org/2022.emnlp-main.702/"
+    poster: "/assets/publications/2022_graph_infused_transformer/poster.pdf"
+    authors: "Giwon Hong, <b>Jeonghwan Kim</b>, Junmo Kang, Sung-Hyon Myaeng"
+    venue: "EMNLP 2022"
+    selected: n
+
+  - title: "Exploiting Numerical-Contextual Knowledge to Improve Numerical Reasoning in Question Answering"
+    image: "/assets/publications/2022_exploiting_numerical-contextual/image.png"
+    authors: "<b>Jeonghwan Kim</b>, Junmo Kang, Giwon Hong, Kyung-min Kim, Sung-Hyon Myaeng"
+    venue: "NAACL 2022, Findings"
+    paper_pdf: "https://aclanthology.org/2022.findings-naacl.138/"
+    poster: "/assets/publications/2022_exploiting_numerical-contextual/poster.pdf"
+    selected: n
+
+  - title: "Leveraging Order-Free Tag Relations for Context-Aware Recommendation"
+    image: "/assets/publications/2021_leveraging_order-free/image.png"
+    authors: "Junmo Kang, <b>Jeonghwan Kim</b>, Suwon Shin, Sung-Hyon Myaeng"
+    venue: "EMNLP 2021"
+    paper_pdf: "https://aclanthology.org/2021.emnlp-main.279.pdf"
+    poster: "/assets/publications/2021_leveraging_order-free/SOG_poster.pdf"
+    selected: n
+
   - title: "Can You Distinguish Truthful from Fake Reviews? User Analysis and Assistance Tool for Fake Review Detection"
     image: "/assets/publications/2021_can_you_distinguish/image.png"
     authors: "<b>Jeonghwan Kim<sup>*</sup></b>, Junmo Kang<sup>*</sup>, Suwon Shin<sup>*</sup>, Sung-Hyon Myaeng"
     venue: "HCI+NLP | EACL 2021"
     paper_pdf: "https://aclanthology.org/2021.hcinlp-1.9.pdf"
     poster: "/assets/publications/2021_can_you_distinguish/eacl_poster.pdf"
-    selected: y
+    selected: n
 
   - title: "Maximizing Efficiency of Language Model Pre-training for Learning Representation"
     image: "/assets/publications/2020_maximizing_efficiency/image.png"
