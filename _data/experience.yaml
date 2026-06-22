@@ -2,13 +2,7 @@ experiences:
 - place: "Meta"
   time: "May 2026 - Present"
   title: "Research Scientist (intern)"
-  subtitle: "Multimodal LLM"
-  category: "industry"
-
-- place: "Medicas AI"
-  time: "Jan 2026 - Mar 2026"
-  title: "Founding Engineer"
-  subtitle: "Multimodal Representation Learning"
+  subtitle: "World-Action Models for Wearables"
   category: "industry"
 
 - place: "Meta"
