@@ -7,7 +7,7 @@ papers:
     selected: y
 
   - title: "Generalizable VLA Finetuning via Representation Anchoring and Language-Action Alignment"
-    image: "/assets/publications/2026_alignment_vla/AnchorAlign_Thumb.mp4"
+    image: "/assets/publications/2026_alignment_vla/image.gif"
     paper_pdf: "https://arxiv.org/abs/2510.09741"
     authors: "Dwip Dalal, Shivansh Patel, Chahit Jain, <b>Jeonghwan Kim</b>, Utkarsh Mishra, Alex Baratian, Hyeonjeong Ha, Heng Ji, Svetlana Lazebnik, Unnat Jain"
     venue: "Preprint, 2026"
