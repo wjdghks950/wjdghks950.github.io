@@ -1,4 +1,16 @@
 papers:
+  - title: "Mixture of Layers: Dynamic Layer Routing for Visual Reasoning"
+    image: "/assets/publications/2026_mol/main_figure.png"
+    authors: "<b>Jeonghwan Kim*</b>, Sofia Stoica*, Jiwan Chung, Ansel Blume, Hyeonjeong Ha, Zhenhailong Wang, Xin Luna Dong, Heng Ji"
+    venue: "NeurIPS 2026"
+    selected: y
+
+  - title: "Advancing Affordance-Grounded Creative Tool Use in Large Multimodal Models"
+    image: "/assets/publications/2026_mmcreativebench/image.png"
+    authors: "Cheng Qian, Hyeonjeong Ha, Jiayu Liu, <b>Jeonghwan Kim</b>, Emre Can Acikgoz, Bingxuan Li, Kunlun Zhu, Jiateng Liu, Aditi Tiwari, Zhenhailong Wang, Xiusi Chen, Heng Ji"
+    venue: "NeurIPS 2026"
+    selected: y
+
   - title: "Pixel-Grounded Retrieval for Knowledgeable Large Multimodal Models"
     image: "/assets/publications/2026_pixsearch/image.png"
     paper_pdf: "https://arxiv.org/abs/2601.19060"

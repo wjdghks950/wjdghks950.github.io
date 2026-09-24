@@ -24,7 +24,13 @@ layout: default
     {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
     {% for paper in selected_papers %}
     <article class="publication">
-      <a class="paper-image" href="{{ paper.paper_pdf }}" aria-label="Read {{ paper.title | escape }}"><img src="{{ paper.image | relative_url }}" alt="Research overview for {{ paper.title | escape }}" loading="lazy" decoding="async" width="640" height="400"></a>
+      {% if paper.paper_pdf %}
+      <a class="paper-image" href="{{ paper.paper_pdf }}" aria-label="Read {{ paper.title | escape }}">
+      {% else %}
+      <div class="paper-image">
+      {% endif %}
+        <img src="{{ paper.image | relative_url }}" alt="Research overview for {{ paper.title | escape }}" loading="lazy" decoding="async" width="640" height="400">
+      {% if paper.paper_pdf %}</a>{% else %}</div>{% endif %}
       <div class="paper-copy">
         <div class="publication-meta">
           {% if paper.venue contains "Preprint" or paper.venue contains "arXiv" %}
@@ -36,8 +42,9 @@ layout: default
           <span class="award-badge"><span aria-hidden="true">🏆</span> {{ paper.award | escape }}</span>
           {% endif %}
         </div>
-        <h3><a href="{{ paper.paper_pdf }}">{{ paper.title }}</a></h3>
+        <h3>{% if paper.paper_pdf %}<a href="{{ paper.paper_pdf }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</h3>
         <p class="authors">{{ paper.authors }}</p>
+        {% if paper.paper_pdf or paper.code or paper.slides or paper.poster or paper.video %}
         <div class="paper-links">
           {% if paper.paper_pdf %}<a href="{{ paper.paper_pdf }}">Paper <span aria-hidden="true">↗</span></a>{% endif %}
           {% if paper.code %}<a href="{{ paper.code }}">Code <span aria-hidden="true">↗</span></a>{% endif %}
@@ -45,6 +52,7 @@ layout: default
           {% if paper.poster %}<a href="{{ paper.poster | relative_url }}">Poster <span aria-hidden="true">↗</span></a>{% endif %}
           {% if paper.video %}<a href="{{ paper.video }}">Video <span aria-hidden="true">↗</span></a>{% endif %}
         </div>
+        {% endif %}
       </div>
     </article>
     {% endfor %}
