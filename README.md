@@ -1,31 +1,34 @@
-# Jeonghwan Kim's Website (based on Martin Saveski's template)
+# Jeonghwan Kim’s website
 
-## Updates guide
-Change one of the files in `_data`, unless you are changing the look of the website.
+A Jekyll academic homepage with an editorial design: warm ivory, forest-green accents, serif headings, and responsive publication layouts.
 
-Test changes with:
-```
+## Updating content
+
+- `_data/main_info.yaml`: name, profile photo, contact details, and profile links.
+- `_data/publications.yaml`: publication titles, authors, venues, images, and resource links. Entries with `selected: y` appear on the homepage in file order. Add `award: "Spotlight"` to show a gold trophy badge alongside the venue.
+- `_data/experience.yaml`: education and service records.
+- `index.html`: introduction, biography, fellowship, and research experience.
+- `libs/custom/editorial.css`: layout, typography, colors, and responsive styles.
+- `_layouts/default.html`: shared navigation, metadata, and footer.
+
+Publication images use their original aspect ratio inside a consistent frame. Keep local asset paths rooted at `/assets/`; Jekyll’s `relative_url` filter supports deployment under a base URL.
+
+## Local preview
+
+With Jekyll installed:
+
+```sh
 jekyll serve
 ```
 
-Push to the ML web directory:
-```
-rm -rf public_html
-mkdir public_html
-```
-```
-./__deploy.sh
+Open `http://localhost:4000`. To build without a server:
+
+```sh
+jekyll build
 ```
 
-More info on the [Media Lab wiki](http://wiki.media.mit.edu/view/Necsys/WebPagePersonal).
+The generated site goes in `_site/`. The `work/` directory contains design and verification artifacts and is excluded from the published site.
 
+The homepage works without JavaScript. Fonts use Google Fonts with local serif and sans-serif fallbacks; Google Analytics remains configured in `_includes/google_analytics.html`.
 
-## External Libraries
-- Framework: [Jekyll](http://jekyllrb.com/)
-- CSS
-  - [Skeleton](getskeleton.com)
-  - Tabs: [Skeleton Tabs](https://github.com/nathancahill/skeleton-tabs)
-  - Experience: [Timeline](https://codepen.io/NilsWe/pen/FemfK)
-  - Icons: [Font Awesome](http://fontawesome.io/)
-- JS
-  - [Jquery (3.1.1)](https://jquery.com/)
+Originally based on [Martin Saveski’s template](https://web.media.mit.edu/~msaveski/).

@@ -24,7 +24,8 @@ papers:
     image: "/assets/publications/2025_partonomy/image.png"
     paper_pdf: "https://arxiv.org/pdf/2505.20759"
     authors: "Ansel Blume*, <b>Jeonghwan Kim*</b>, Hyeonjeong Ha, Elen Chatikyan, Xiaomeng Jin, Khanh Duy Nguyen, Nanyun Peng, Kai-Wei Chang, Derek Hoiem and Heng Ji"
-    venue: 'NeurIPS 2025 <span style="color: #c62828;">(Spotlight)</span>'
+    venue: "NeurIPS 2025"
+    award: "Spotlight"
     selected: y
 
   - title: "Infogent: An Agent-Based Framework for Web Information Aggregation"
