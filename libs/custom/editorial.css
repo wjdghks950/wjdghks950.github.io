@@ -548,14 +548,14 @@ h1 {
 
 /* A single, compact introduction replaces the oversized hero and separate bio. */
 .intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 240px;
+  column-gap: 36px;
   padding: 32px 0 28px;
   border-bottom: 1px solid var(--line);
 }
 .intro-heading {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
+  grid-column: 1;
   margin-bottom: 16px;
 }
 .intro h1 {
@@ -564,13 +564,18 @@ h1 {
   letter-spacing: -.6px;
 }
 .intro-portrait {
-  width: 80px;
-  height: 80px;
-  flex-shrink: 0;
+  grid-column: 2;
+  grid-row: 1 / 4;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  max-height: 340px;
+  align-self: center;
   object-fit: cover;
   border-radius: 6px;
 }
 .intro-copy {
+  grid-column: 1;
   max-width: 920px;
   font-size: 15px;
   line-height: 1.75;
@@ -580,6 +585,7 @@ h1 {
   margin-top: 12px;
 }
 .intro-links {
+  grid-column: 1;
   display: flex;
   flex-wrap: wrap;
   gap: 22px;
@@ -594,21 +600,36 @@ h1 {
 .intro-links a:hover {
   text-decoration: underline;
 }
+@media(min-width:601px) and (max-width:800px) {
+  .intro {
+    grid-template-columns: minmax(0, 1fr) 180px;
+    column-gap: 24px;
+  }
+}
 @media(max-width:600px) {
   .intro {
+    grid-template-columns: minmax(0, 1fr) 104px;
+    column-gap: 16px;
     padding: 24px 0;
   }
   .intro-heading {
-    gap: 16px;
+    align-self: center;
+    margin-bottom: 0;
   }
   .intro h1 {
     font-size: 30px;
   }
   .intro-portrait {
-    width: 64px;
-    height: 64px;
+    grid-row: 1;
+    width: 104px;
+    height: 104px;
+  }
+  .intro-links {
+    grid-column: 1 / -1;
   }
   .intro-copy {
+    grid-column: 1 / -1;
+    margin-top: 16px;
     font-size: 14px;
     line-height: 1.7;
   }
