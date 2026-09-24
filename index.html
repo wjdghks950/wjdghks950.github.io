@@ -1,36 +1,24 @@
 ---
 layout: default
 ---
-<section class="hero" aria-labelledby="hero-title">
-  <div class="hero-copy">
-    <p class="eyebrow">Multimodal learning &amp; embodied AI</p>
-    <h1 id="hero-title">Seeing the details.<br><em>Understanding<br class="desktop-break"> the world.</em></h1>
-    <p class="hero-description">I’m Jeonghwan, a Ph.D. candidate at <a href="https://blender.cs.illinois.edu/">UIUC’s BLENDER Lab</a>. I build multimodal models that connect fine-grained visual perception, knowledge, and reasoning.</p>
-    <div class="hero-links">
-      <a class="button-primary" href="#publications">Explore my research <span aria-hidden="true">↓</span></a>
-      <a href="{{ site.data.main_info.google_scholar }}">Google Scholar <span aria-hidden="true">↗</span></a>
-      <a href="mailto:{{ site.data.main_info.email | replace: ' [AT] ', '@' }}">Email <span aria-hidden="true">↗</span></a>
-    </div>
+<section class="intro" id="about" aria-labelledby="about-title">
+  <div class="intro-heading">
+    <h1 id="about-title">From perception to understanding.</h1>
+    <img class="intro-portrait" src="{{ site.data.main_info.profile_pic | relative_url }}" alt="Jeonghwan Kim" width="800" height="800" fetchpriority="high">
   </div>
-  <figure class="portrait">
-    <img src="{{ site.data.main_info.profile_pic | relative_url }}" alt="Jeonghwan Kim" width="800" height="800" fetchpriority="high">
-    <figcaption><span>Jeonghwan Kim</span><span>Ph.D. Candidate · UIUC</span></figcaption>
-  </figure>
-</section>
-<div class="fellowship"><span class="fellowship-mark" aria-hidden="true">✳</span><span>Capital One Ph.D. Fellow</span><span class="fellowship-date">2026–2027</span></div>
-
-<section class="section about-section" id="about" aria-labelledby="about-title">
-  <div><p class="eyebrow">01 / About</p><h2 id="about-title">From perception<br>to understanding.</h2></div>
-  <div class="about-copy">
-    <p>I am a Ph.D. candidate at the <a href="https://blender.cs.illinois.edu/">BLENDER Lab</a>, University of Illinois Urbana-Champaign, advised by <a href="https://blender.cs.illinois.edu/hengji.html">Professor Heng Ji</a>.</p>
-    <p>My research focuses on multimodal foundation models that perceive, ground, and reason over fine-grained visual information. I develop methods for visual grounding, cross-modal alignment, and knowledge integration to make these systems more accurate and interpretable.</p>
-    <p>Recently, I have been extending this work to visually grounded action policies for embodied AI and robotics—connecting perception, reasoning, and action in real-world environments.</p>
-    <ul class="research-topics" aria-label="Research interests"><li>Visual grounding</li><li>Multimodal reasoning</li><li>Embodied AI</li></ul>
+  <div class="intro-copy">
+    <p>I’m Jeonghwan Kim, a Ph.D. candidate at <a href="https://blender.cs.illinois.edu/">UIUC’s BLENDER Lab</a>, advised by <a href="https://blender.cs.illinois.edu/hengji.html">Professor Heng Ji</a>. I am a recipient of the Capital One Ph.D. Fellowship (2026–2027).</p>
+    <p>I study multimodal foundation models that perceive, ground, and reason over fine-grained visual information. My work connects visual grounding, cross-modal alignment, and knowledge integration to make these systems more accurate and interpretable. Recently, I’ve been extending this work to visually grounded action policies for embodied AI and robotics.</p>
+  </div>
+  <div class="intro-links">
+    <a href="{{ site.data.main_info.google_scholar }}">Google Scholar <span aria-hidden="true">↗</span></a>
+    <a href="{{ site.data.main_info.cv | relative_url }}">CV <span aria-hidden="true">↗</span></a>
+    <a href="mailto:{{ site.data.main_info.email | replace: ' [AT] ', '@' }}">Email <span aria-hidden="true">↗</span></a>
   </div>
 </section>
 
 <section class="section" id="publications" aria-labelledby="research-title">
-  <div class="section-heading"><div><p class="eyebrow">02 / Research</p><h2 id="research-title">Selected publications</h2></div><a class="text-link" href="{{ site.data.main_info.google_scholar }}">All publications on Scholar <span aria-hidden="true">↗</span></a></div>
+  <div class="section-heading"><div><p class="eyebrow">01 / Research</p><h2 id="research-title">Selected publications</h2></div><a class="text-link" href="{{ site.data.main_info.google_scholar }}">All publications on Scholar <span aria-hidden="true">↗</span></a></div>
   <p class="section-note">* indicates equal contribution.</p>
   <div class="publication-list">
     {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
@@ -64,7 +52,7 @@ layout: default
 </section>
 
 <section class="section" id="experience" aria-labelledby="experience-title">
-  <div class="section-heading"><div><p class="eyebrow">03 / Experience</p><h2 id="experience-title">Professional Experience</h2></div><a class="text-link" href="{{ site.data.main_info.cv | relative_url }}">Full CV <span aria-hidden="true">↗</span></a></div>
+  <div class="section-heading"><div><p class="eyebrow">02 / Experience</p><h2 id="experience-title">Professional Experience</h2></div><a class="text-link" href="{{ site.data.main_info.cv | relative_url }}">Full CV <span aria-hidden="true">↗</span></a></div>
   <div class="experience-list">
     <article class="experience-row"><h3>Meta</h3><div><p>Research Scientist Intern</p><p class="detail">World-Action Models for Wearables · Redmond, WA</p></div><p class="date">May 2026 – Present</p></article>
     <article class="experience-row"><h3>Meta</h3><div><p>Research Scientist Intern (Part-time Student Researcher)</p><p class="detail">Multimodal RAG + MLLM · Redmond, WA</p></div><p class="date">May – Oct 2025</p></article>
@@ -76,7 +64,7 @@ layout: default
 </section>
 
 <section class="section" id="resume" aria-labelledby="education-title">
-  <div class="section-heading" id="education"><div><p class="eyebrow">04 / Background</p><h2 id="education-title">Education &amp; service</h2></div></div>
+  <div class="section-heading" id="education"><div><p class="eyebrow">03 / Background</p><h2 id="education-title">Education &amp; service</h2></div></div>
   <div class="experience-list">
   {% for exp in site.data.experience.experiences %}
     {% if exp.category == "school" or exp.place == "Republic of Korea Marine Corps" %}
