@@ -610,8 +610,15 @@ h1 {
   font-weight: 500;
 }
 .intro-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
   padding: 6px 0;
   text-decoration: none;
+}
+.intro-links .fa {
+  font-size: 15px;
+  color: inherit;
 }
 .intro-links a:hover {
   text-decoration: underline;
