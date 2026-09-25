@@ -1,0 +1,5 @@
+{%- assign organization = site.data.organization_logos[include.name] -%}
+{%- if organization -%}
+<img class="organization-logo" src="{{ organization.image | relative_url }}" alt="" width="18" height="18" loading="lazy" decoding="async">
+{%- endif -%}
+<span>{{ include.name | escape }}</span>

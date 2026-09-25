@@ -62,12 +62,12 @@ layout: default
 <section class="section" id="experience" aria-labelledby="experience-title">
   <div class="section-heading"><div><p class="eyebrow">02 / Experience</p><h2 id="experience-title">Professional Experience</h2></div><a class="text-link" href="{{ site.data.main_info.cv | relative_url }}">Full CV <span aria-hidden="true">↗</span></a></div>
   <div class="experience-list">
-    <article class="experience-row"><h3>Meta</h3><div><p>Research Scientist Intern</p><p class="detail">World-Action Models for Wearables · Redmond, WA</p></div><p class="date">May 2026 – Present</p></article>
-    <article class="experience-row"><h3>Meta</h3><div><p>Research Scientist Intern (Part-time Student Researcher)</p><p class="detail">Multimodal RAG + MLLM · Redmond, WA</p></div><p class="date">May – Oct 2025</p></article>
-    <article class="experience-row"><h3>Amazon</h3><div><p>Applied Scientist Intern</p><p class="detail">Multimodal Representation Learning · Bellevue, WA</p></div><p class="date">May – Aug 2024</p></article>
-    <article class="experience-row"><h3>UIUC</h3><div><p>Graduate Research Assistant · Ph.D.</p><p class="detail">Advisor: Heng Ji</p></div><p class="date">Aug 2023 – Present</p></article>
-    <article class="experience-row"><h3>KAIST</h3><div><p>Research Associate</p><p class="detail">IR&amp;NLP Lab · Advisor: Sung-Hyon Myaeng</p></div><p class="date">Mar 2022 – Jul 2023</p></article>
-    <article class="experience-row"><h3>KAIST</h3><div><p>Graduate Research Assistant · M.S.</p><p class="detail">IR&amp;NLP Lab · Advisor: Sung-Hyon Myaeng</p></div><p class="date">Feb 2020 – Feb 2022</p></article>
+    <article class="experience-row"><h3 class="organization-name">{% include organization.html name="Meta" %}</h3><div><p>Research Scientist Intern</p><p class="detail">World-Action Models for Wearables · Redmond, WA</p></div><p class="date">May 2026 – Present</p></article>
+    <article class="experience-row"><h3 class="organization-name">{% include organization.html name="Meta" %}</h3><div><p>Research Scientist Intern (Part-time Student Researcher)</p><p class="detail">Multimodal RAG + MLLM · Redmond, WA</p></div><p class="date">May – Oct 2025</p></article>
+    <article class="experience-row"><h3 class="organization-name">{% include organization.html name="Amazon" %}</h3><div><p>Applied Scientist Intern</p><p class="detail">Multimodal Representation Learning · Bellevue, WA</p></div><p class="date">May – Aug 2024</p></article>
+    <article class="experience-row"><h3 class="organization-name">{% include organization.html name="UIUC" %}</h3><div><p>Graduate Research Assistant · Ph.D.</p><p class="detail">Advisor: Heng Ji</p></div><p class="date">Aug 2023 – Present</p></article>
+    <article class="experience-row"><h3 class="organization-name">{% include organization.html name="KAIST" %}</h3><div><p>Research Associate</p><p class="detail">IR&amp;NLP Lab · Advisor: Sung-Hyon Myaeng</p></div><p class="date">Mar 2022 – Jul 2023</p></article>
+    <article class="experience-row"><h3 class="organization-name">{% include organization.html name="KAIST" %}</h3><div><p>Graduate Research Assistant · M.S.</p><p class="detail">IR&amp;NLP Lab · Advisor: Sung-Hyon Myaeng</p></div><p class="date">Feb 2020 – Feb 2022</p></article>
   </div>
 </section>
 
@@ -76,7 +76,7 @@ layout: default
   <div class="experience-list">
   {% for exp in site.data.experience.experiences %}
     {% if exp.category == "school" or exp.place == "Republic of Korea Marine Corps" %}
-    <article class="experience-row"><h3>{{ exp.place }}</h3><div><p>{{ exp.title }}</p><p class="detail">{{ exp.subtitle }}</p></div><p class="date">{{ exp.time }}</p></article>
+    <article class="experience-row"><h3 class="organization-name">{% include organization.html name=exp.place %}</h3><div><p>{{ exp.title }}</p><p class="detail">{{ exp.subtitle }}</p></div><p class="date">{{ exp.time }}</p></article>
     {% endif %}
   {% endfor %}
   </div>
