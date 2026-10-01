@@ -15,7 +15,8 @@ papers:
     image: "/assets/publications/2026_pixsearch/image.png"
     paper_pdf: "https://arxiv.org/abs/2601.19060"
     authors: "<b>Jeonghwan Kim</b>, Renjie Tao, Sanat Sharma, Jiaqi Wang, Kai Sun, Zhaojiang Lin, Seungwhan Moon, Lambert Mathias, Anuj Kumar, Heng Ji, Xin Luna Dong"
-    venue: "Preprint, 2026"
+    venue: "NeurIPS 2026 @ VLM4RWD"
+    award: "Oral Presentation"
     selected: y
 
   - title: "Generalizable VLA Finetuning via Representation Anchoring and Language-Action Alignment"
