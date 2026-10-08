@@ -1,6 +1,14 @@
 ---
 layout: default
 ---
+<aside class="featured-update" aria-label="Featured research and conference plans">
+  <div>
+    <p class="featured-label">Featured work · NeurIPS 2026</p>
+    <p class="featured-title"><a href="https://wjdghks950.github.io/mol.github.io/">Mixture of Layers: Dynamic Layer Routing for Visual Reasoning <span aria-hidden="true">↗</span></a></p>
+    <p class="featured-travel">I’ll be in Atlanta for NeurIPS 2026! <a href="mailto:{{ site.data.main_info.email | replace: ' [AT] ', '@' }}">Let’s connect.</a></p>
+  </div>
+</aside>
+
 <section class="intro" id="about" aria-labelledby="about-title">
   <div class="intro-heading">
     <h1 id="about-title">From perception to understanding.</h1>
@@ -17,20 +25,44 @@ layout: default
   </div>
 </section>
 
+<section class="news-section" id="news" aria-labelledby="news-title">
+  <div class="news-heading">
+    <div><p class="eyebrow">01 / Updates</p><h2 id="news-title">News</h2></div>
+    <p id="news-hint">Latest first · scroll for more <span aria-hidden="true">↓</span></p>
+  </div>
+  <div class="news-feed" role="region" aria-labelledby="news-title" aria-describedby="news-hint" tabindex="0">
+    {% assign news_years = site.data.news | sort: "year" | reverse %}
+    {% for group in news_years %}
+    <div class="news-year">
+      <h3><time datetime="{{ group.year }}">{{ group.year }}</time></h3>
+      <ul>
+        {% for item in group.items %}
+        <li>
+          <p>{{ item.text }}{% if item.award %} <span class="news-award"><span aria-hidden="true">🏆</span> {{ item.award }}</span>{% endif %}</p>
+          {% if item.link %}<a class="news-link" href="{{ item.link }}">{{ item.link_label | default: 'Read more' }} <span aria-hidden="true">↗</span></a>{% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
 <section class="section" id="publications" aria-labelledby="research-title">
-  <div class="section-heading"><div><p class="eyebrow">01 / Research</p><h2 id="research-title">Selected publications</h2></div><a class="text-link" href="{{ site.data.main_info.google_scholar }}">All publications on Scholar <span aria-hidden="true">↗</span></a></div>
+  <div class="section-heading"><div><p class="eyebrow">02 / Research</p><h2 id="research-title">Selected publications</h2></div><a class="text-link" href="{{ site.data.main_info.google_scholar }}">All publications on Scholar <span aria-hidden="true">↗</span></a></div>
   <p class="section-note">* indicates equal contribution.</p>
   <div class="publication-list">
     {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
     {% for paper in selected_papers %}
+    {% assign primary_link = paper.project | default: paper.paper_pdf %}
     <article class="publication">
-      {% if paper.paper_pdf %}
-      <a class="paper-image" href="{{ paper.paper_pdf }}" aria-label="Read {{ paper.title | escape }}">
+      {% if primary_link %}
+      <a class="paper-image" href="{{ primary_link }}" aria-label="View {{ paper.title | escape }}">
       {% else %}
       <div class="paper-image">
       {% endif %}
         <img src="{{ paper.image | relative_url }}" alt="Research overview for {{ paper.title | escape }}" loading="lazy" decoding="async" width="640" height="400">
-      {% if paper.paper_pdf %}</a>{% else %}</div>{% endif %}
+      {% if primary_link %}</a>{% else %}</div>{% endif %}
       <div class="paper-copy">
         <div class="publication-meta">
           {% if paper.venue contains "Preprint" or paper.venue contains "arXiv" %}
@@ -42,10 +74,11 @@ layout: default
           <span class="award-badge"><span aria-hidden="true">🏆</span> {{ paper.award | escape }}</span>
           {% endif %}
         </div>
-        <h3>{% if paper.paper_pdf %}<a href="{{ paper.paper_pdf }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</h3>
+        <h3>{% if primary_link %}<a href="{{ primary_link }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</h3>
         <p class="authors">{{ paper.authors }}</p>
-        {% if paper.paper_pdf or paper.code or paper.slides or paper.poster or paper.video %}
+        {% if paper.project or paper.paper_pdf or paper.code or paper.slides or paper.poster or paper.video %}
         <div class="paper-links">
+          {% if paper.project %}<a href="{{ paper.project }}">Project <span aria-hidden="true">↗</span></a>{% endif %}
           {% if paper.paper_pdf %}<a href="{{ paper.paper_pdf }}">Paper <span aria-hidden="true">↗</span></a>{% endif %}
           {% if paper.code %}<a href="{{ paper.code }}">Code <span aria-hidden="true">↗</span></a>{% endif %}
           {% if paper.slides %}<a href="{{ paper.slides | relative_url }}">Slides <span aria-hidden="true">↗</span></a>{% endif %}
@@ -60,7 +93,7 @@ layout: default
 </section>
 
 <section class="section" id="experience" aria-labelledby="experience-title">
-  <div class="section-heading"><div><p class="eyebrow">02 / Experience</p><h2 id="experience-title">Professional Experience</h2></div><a class="text-link" href="{{ site.data.main_info.cv | relative_url }}">Full CV <span aria-hidden="true">↗</span></a></div>
+  <div class="section-heading"><div><p class="eyebrow">03 / Experience</p><h2 id="experience-title">Professional Experience</h2></div><a class="text-link" href="{{ site.data.main_info.cv | relative_url }}">Full CV <span aria-hidden="true">↗</span></a></div>
   <div class="experience-list">
     <article class="experience-row"><h3 class="organization-name">{% include organization.html name="Meta" %}</h3><div><p>Research Scientist Intern</p><p class="detail">World-Action Models for Wearables · Redmond, WA</p></div><p class="date">May 2026 – Present</p></article>
     <article class="experience-row"><h3 class="organization-name">{% include organization.html name="Meta" %}</h3><div><p>Research Scientist Intern (Part-time Student Researcher)</p><p class="detail">Multimodal RAG + MLLM · Redmond, WA</p></div><p class="date">May – Oct 2025</p></article>
@@ -72,7 +105,7 @@ layout: default
 </section>
 
 <section class="section" id="resume" aria-labelledby="education-title">
-  <div class="section-heading" id="education"><div><p class="eyebrow">03 / Background</p><h2 id="education-title">Education &amp; service</h2></div></div>
+  <div class="section-heading" id="education"><div><p class="eyebrow">04 / Background</p><h2 id="education-title">Education &amp; service</h2></div></div>
   <div class="experience-list">
   {% for exp in site.data.experience.experiences %}
     {% if exp.category == "school" or exp.place == "Republic of Korea Marine Corps" %}

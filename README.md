@@ -7,6 +7,7 @@ A Jekyll academic homepage with an editorial design: warm ivory, forest-green ac
 - `_data/main_info.yaml`: name, profile photo, contact details, and profile links.
 - `_data/publications.yaml`: publication titles, authors, venues, images, and resource links. Entries with `selected: y` appear on the homepage in file order. Add `award: "Spotlight"` to show a gold trophy badge alongside the venue.
 - `_data/experience.yaml`: education and service records.
+- `_data/news.yaml`: news grouped by year, displayed newest year first. Keep each year’s announcements newest first; use only documented dates. Optional `award` adds a trophy, and `link` / `link_label` add a resource link.
 - `index.html`: introduction, biography, fellowship, and research experience.
 - `libs/custom/editorial.css`: layout, typography, colors, and responsive styles.
 - `_layouts/default.html`: shared navigation, metadata, and footer.

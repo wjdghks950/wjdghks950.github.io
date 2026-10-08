@@ -1,11 +1,13 @@
 papers:
   - title: "Mixture of Layers: Dynamic Layer Routing for Visual Reasoning"
+    project: "https://wjdghks950.github.io/mol.github.io/"
     image: "/assets/publications/2026_mol/main_figure.png"
     authors: "<b>Jeonghwan Kim*</b>, Sofia Stoica*, Jiwan Chung, Ansel Blume, Hyeonjeong Ha, Zhenhailong Wang, Xin Luna Dong, Heng Ji"
     venue: "NeurIPS 2026"
     selected: y
 
   - title: "Advancing Affordance-Grounded Creative Tool Use in Large Multimodal Models"
+    paper_pdf: "https://arxiv.org/abs/2605.26396"
     image: "/assets/publications/2026_mmcreativebench/image.png"
     authors: "Cheng Qian, Hyeonjeong Ha, Jiayu Liu, <b>Jeonghwan Kim</b>, Emre Can Acikgoz, Bingxuan Li, Kunlun Zhu, Jiateng Liu, Aditi Tiwari, Zhenhailong Wang, Xiusi Chen, Heng Ji"
     venue: "NeurIPS 2026"
@@ -21,7 +23,7 @@ papers:
 
   - title: "Generalizable VLA Finetuning via Representation Anchoring and Language-Action Alignment"
     image: "/assets/publications/2026_alignment_vla/image.gif"
-    paper_pdf: "https://arxiv.org/abs/2510.09741"
+    paper_pdf: "https://arxiv.org/abs/2607.13429"
     authors: "Dwip Dalal, Shivansh Patel, Chahit Jain, <b>Jeonghwan Kim</b>, Utkarsh Mishra, Alex Baratian, Hyeonjeong Ha, Heng Ji, Svetlana Lazebnik, Unnat Jain"
     venue: "Preprint, 2026"
     selected: y
@@ -34,6 +36,7 @@ papers:
     selected: y
 
   - title: "PARTONOMY: Large Multimodal Models with Part-Level Visual Understanding"
+    project: "https://wjdghks950.github.io/partonomy.github.io/"
     image: "/assets/publications/2025_partonomy/image.png"
     paper_pdf: "https://arxiv.org/pdf/2505.20759"
     authors: "Ansel Blume*, <b>Jeonghwan Kim*</b>, Hyeonjeong Ha, Elen Chatikyan, Xiaomeng Jin, Khanh Duy Nguyen, Nanyun Peng, Kai-Wei Chang, Derek Hoiem and Heng Ji"
