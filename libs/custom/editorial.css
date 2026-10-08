@@ -665,42 +665,6 @@ h1 {
 }
 
 /* Compact, prominent announcements above the research archive. */
-.featured-update {
-  margin-top: 24px;
-  padding: 20px 24px;
-  background: var(--ink);
-  color: var(--paper);
-  border-radius: 6px;
-  border-left: 4px solid #c7b47a;
-}
-.featured-label {
-  color: #d6e1cf;
-  font-size: 11px;
-  letter-spacing: 1.3px;
-  text-transform: uppercase;
-  margin-bottom: 6px;
-}
-.featured-title {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.4;
-}
-.featured-update a {
-  color: inherit;
-}
-.featured-update a:focus-visible {
-  outline-color: var(--paper);
-}
-.featured-title a {
-  text-decoration: none;
-}
-.featured-title a:hover {
-  text-decoration: underline;
-}
-.featured-travel {
-  font-size: 14px;
-  margin-top: 8px;
-}
 .news-section {
   margin-top: 30px;
   border: 1px solid #bccbb6;
@@ -779,16 +743,6 @@ h1 {
   white-space: nowrap;
 }
 @media(max-width:600px) {
-  .featured-update {
-    margin-top: 18px;
-    padding: 16px;
-  }
-  .featured-title {
-    font-size: 17px;
-  }
-  .featured-travel {
-    font-size: 13px;
-  }
   .news-heading {
     padding: 16px;
     align-items: start;
