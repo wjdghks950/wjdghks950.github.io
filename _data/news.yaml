@@ -9,72 +9,72 @@
     - text: 'Our <strong>PARTONOMY</strong> project page is now available.'
       link: https://wjdghks950.github.io/partonomy.github.io/
       link_label: Explore PARTONOMY
-    - text: '<strong>Mixture of Layers: Dynamic Layer Routing for Visual Reasoning</strong>, which I co-first-authored with Sofia Stoica, was accepted to <strong>NeurIPS 2026</strong>.'
+    - text: 'Our paper <strong>Mixture of Layers: Dynamic Layer Routing for Visual Reasoning</strong> was accepted to <strong>NeurIPS 2026</strong>.'
       link: https://wjdghks950.github.io/mol.github.io/
       link_label: Project
-    - text: 'My first-author paper <strong>Pixel-Grounded Retrieval for Knowledgeable Large Multimodal Models (PixSearch)</strong> was accepted to <strong>NeurIPS 2026 @ VLM4RWD</strong>.'
+    - text: 'Our paper <strong>Pixel-Grounded Retrieval for Knowledgeable Large Multimodal Models (PixSearch)</strong> was accepted to <strong>NeurIPS 2026 @ VLM4RWD</strong>.'
       award: Oral Presentation
       link: https://arxiv.org/abs/2601.19060
       link_label: Paper
     - text: 'I received the <strong>Capital One Ph.D. Fellowship (2026–2027)</strong> at UIUC.'
     - text: 'I joined <strong>Meta</strong> in May as a <strong>Research Scientist Intern</strong>, working on language-guided world action models for smart glasses.'
-    - text: '<strong>MemGuard: Preventing Memory Contamination in Long-Term Memory-Augmented Large Language Models</strong>, on which I am second author, was accepted to <strong>EMNLP 2026 Findings</strong>.'
-    - text: '<strong>PEARL: Self-Evolving Assistant for Time Management with Reinforcement Learning</strong>, on which I am second author, was accepted to <strong>ACL 2026</strong>.'
+    - text: 'Our paper <strong>MemGuard: Preventing Memory Contamination in Long-Term Memory-Augmented Large Language Models</strong> was accepted to <strong>EMNLP 2026 Findings</strong>.'
+    - text: 'Our paper <strong>PEARL: Self-Evolving Assistant for Time Management with Reinforcement Learning</strong> was accepted to <strong>ACL 2026</strong>.'
       link: https://arxiv.org/abs/2601.11957
       link_label: Paper
-    - text: 'My first-author work <strong>ProMac: Language-Guided World Action Modeling for Single-View Egocentric Navigation</strong> is a preprint under review.'
+    - text: 'Our paper <strong>ProMac: Language-Guided World Action Modeling for Single-View Egocentric Navigation</strong> is a preprint under review.'
 - year: 2025
   items:
-    - text: 'Our co-first-author paper <strong>PARTONOMY: Large Multimodal Models with Part-Level Visual Understanding</strong> was accepted to <strong>NeurIPS 2025</strong>.'
+    - text: 'Our paper <strong>PARTONOMY: Large Multimodal Models with Part-Level Visual Understanding</strong> was accepted to <strong>NeurIPS 2025</strong>.'
       award: Spotlight
       link: https://wjdghks950.github.io/partonomy.github.io/
       link_label: Project
     - text: 'I joined <strong>Meta</strong> in May as a <strong>Research Scientist Intern (Part-time Student Researcher)</strong>, working on pixel-level retrieval-augmented generation for multimodal models.'
-    - text: 'Our co-first-author paper <strong>Infogent: An Agent-Based Framework for Web Information Aggregation</strong> was accepted to <strong>NAACL 2025 Findings</strong>.'
+    - text: 'Our paper <strong>Infogent: An Agent-Based Framework for Web Information Aggregation</strong> was accepted to <strong>NAACL 2025 Findings</strong>.'
       link: https://arxiv.org/abs/2410.19054
       link_label: Paper
 - year: 2024
   items:
-    - text: 'My first-author paper <strong>Finer: Investigating and Enhancing Fine-Grained Visual Concept Recognition in Large Vision Language Models</strong> was accepted to <strong>EMNLP 2024</strong>.'
+    - text: 'Our paper <strong>Finer: Investigating and Enhancing Fine-Grained Visual Concept Recognition in Large Vision Language Models</strong> was accepted to <strong>EMNLP 2024</strong>.'
       link: https://arxiv.org/abs/2402.16315
       link_label: Paper
-    - text: '<strong>ARMADA: Attribute-Based Multimodal Data Augmentation</strong>, on which I am second author, was accepted to <strong>WikiNLP at EMNLP 2024</strong>.'
+    - text: 'Our paper <strong>ARMADA: Attribute-Based Multimodal Data Augmentation</strong> was accepted to <strong>WikiNLP at EMNLP 2024</strong>.'
       link: https://aclanthology.org/2024.wikinlp-1.17/
       link_label: Paper
     - text: 'I joined <strong>Amazon</strong> in May as an <strong>Applied Scientist Intern</strong>, developing a generalizable multimodal encoder for geospatial applications.'
-    - text: 'Our co-first-author paper <strong>Why So Gullible? Enhancing the Robustness of Retrieval-Augmented Models against Counterfactual Noise</strong> was accepted to <strong>NAACL 2024 Findings</strong>.'
+    - text: 'Our paper <strong>Why So Gullible? Enhancing the Robustness of Retrieval-Augmented Models against Counterfactual Noise</strong> was accepted to <strong>NAACL 2024 Findings</strong>.'
       link: https://arxiv.org/abs/2305.01579
       link_label: Paper
 - year: 2023
   items:
-    - text: 'Our co-first-author paper <strong>FinePrompt: Unveiling the Role of Finetuned Inductive Bias on Compositional Reasoning in GPT-4</strong> was accepted to <strong>EMNLP 2023 Findings</strong>.'
+    - text: 'Our paper <strong>FinePrompt: Unveiling the Role of Finetuned Inductive Bias on Compositional Reasoning in GPT-4</strong> was accepted to <strong>EMNLP 2023 Findings</strong>.'
 - year: 2022
   items:
-    - text: '<strong>Graph-Induced Transformers for Efficient Multi-Hop Question Answering</strong>, on which I am second author, was accepted to <strong>EMNLP 2022</strong>.'
+    - text: 'Our paper <strong>Graph-Induced Transformers for Efficient Multi-Hop Question Answering</strong> was accepted to <strong>EMNLP 2022</strong>.'
       link: https://aclanthology.org/2022.emnlp-main.702/
       link_label: Paper
-    - text: 'My first-author paper <strong>Exploiting Numerical-Contextual Knowledge to Improve Numerical Reasoning in Question Answering</strong> was accepted to <strong>NAACL 2022 Findings</strong>.'
+    - text: 'Our paper <strong>Exploiting Numerical-Contextual Knowledge to Improve Numerical Reasoning in Question Answering</strong> was accepted to <strong>NAACL 2022 Findings</strong>.'
       link: https://aclanthology.org/2022.findings-naacl.138/
       link_label: Paper
 - year: 2021
   items:
-    - text: 'My first-author paper <strong>Have You Seen That Number? Investigating Extrapolation in Question Answering Models</strong> was accepted to <strong>EMNLP 2021</strong>.'
+    - text: 'Our paper <strong>Have You Seen That Number? Investigating Extrapolation in Question Answering Models</strong> was accepted to <strong>EMNLP 2021</strong>.'
       link: https://aclanthology.org/2021.emnlp-main.563/
       link_label: Paper
-    - text: '<strong>Leveraging Order-Free Tag Relations for Context-Aware Recommendation</strong>, on which I am second author, was accepted to <strong>EMNLP 2021</strong>.'
+    - text: 'Our paper <strong>Leveraging Order-Free Tag Relations for Context-Aware Recommendation</strong> was accepted to <strong>EMNLP 2021</strong>.'
       link: https://aclanthology.org/2021.emnlp-main.279/
       link_label: Paper
-    - text: 'Our co-first-author paper <strong>Can You Distinguish Truthful from Fake Reviews? User Analysis and Assistance Tool for Fake Review Detection</strong> was accepted to <strong>HCI+NLP at EACL 2021</strong>.'
+    - text: 'Our paper <strong>Can You Distinguish Truthful from Fake Reviews? User Analysis and Assistance Tool for Fake Review Detection</strong> was accepted to <strong>HCI+NLP at EACL 2021</strong>.'
       link: https://aclanthology.org/2021.hcinlp-1.9/
       link_label: Paper
 - year: 2020
   items:
-    - text: 'Our co-first-author paper <strong>Maximizing Efficiency of Language Model Pre-training for Learning Representation</strong> appeared at <strong>KSC 2020</strong>.'
-    - text: '<strong>Autonomous Parking Simulator for Reinforcement Learning</strong>, on which I am second author, appeared in the <strong>Journal of Digital Contents Society</strong> in February.'
+    - text: 'Our paper <strong>Maximizing Efficiency of Language Model Pre-training for Learning Representation</strong> appeared at <strong>KSC 2020</strong>.'
+    - text: 'Our paper <strong>Autonomous Parking Simulator for Reinforcement Learning</strong> appeared in the <strong>Journal of Digital Contents Society</strong> in February.'
       link: https://doi.org/10.9728/dcs.2020.21.2.381
       link_label: Paper
 - year: 2019
   items:
-    - text: '<strong>Object Classification on Raw Radar Data Using Convolutional Neural Networks</strong>, on which I am second author, appeared at <strong>IEEE SAS 2019</strong>.'
+    - text: 'Our paper <strong>Object Classification on Raw Radar Data Using Convolutional Neural Networks</strong> appeared at <strong>IEEE SAS 2019</strong>.'
       link: https://ieeexplore.ieee.org/abstract/document/8706004
       link_label: Paper
