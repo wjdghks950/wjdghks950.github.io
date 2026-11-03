@@ -688,7 +688,7 @@ h1 {
   font-size: 36px;
 }
 #news-hint {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--muted);
 }
 .news-feed {
@@ -712,7 +712,7 @@ h1 {
   padding-top: 6px;
 }
 .news-year h3 {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700;
   padding-top: 13px;
   color: var(--accent);
@@ -726,7 +726,7 @@ h1 {
 .news-year li {
   padding: 12px 0;
   border-bottom: 1px solid var(--line);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.65;
 }
 .news-year strong {
@@ -735,7 +735,7 @@ h1 {
 .news-link {
   display: inline-block;
   margin-top: 4px;
-  font-size: 12px;
+  font-size: 14px;
 }
 .news-award {
   color: #934b4b;
