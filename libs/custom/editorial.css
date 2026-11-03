@@ -323,22 +323,20 @@ h1 {
 }
 
 .experience-row h3 {
-  font-size:16px;
+  font-size:20px;
   font-weight:500;
 }
 
 .organization-name {
   display: flex;
-  align-items: baseline;
-  gap: 8px;
+  align-items: center;
+  gap: 10px;
 }
 
 .organization-logo {
-  width: 1.125em;
-  height: 1.125em;
-  flex: 0 0 1.125em;
-  align-self: flex-start;
-  margin-top: .12em;
+  width: 1.4em;
+  height: 1.4em;
+  flex: 0 0 1.4em;
   object-fit: contain;
 }
 
