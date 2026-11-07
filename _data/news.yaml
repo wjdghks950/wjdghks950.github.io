@@ -4,14 +4,14 @@
 # and the site owner's updates. Internship start months are preserved in text.
 - year: 2026
   items:
+    - text: 'I’ll be in <strong>Atlanta for NeurIPS 2026</strong>!'
+    - text: 'I received the <strong>Capital One Ph.D. Fellowship (2026–2027)</strong> at UIUC.'
+    - text: 'I joined <strong>Meta</strong> in May as a <strong>Research Scientist Intern</strong>, working on language-guided world action models for smart glasses.'
     - text: 'Our paper <strong>Advancing Creative Physical Intelligence in Large Multimodal Models</strong> was accepted to <strong>NeurIPS 2026</strong>.'
     - text: 'Our paper <strong>CreativityBench: Evaluating Agent Creative Reasoning via Affordance-Based Tool Repurposing</strong> was accepted to <strong>COLM 2026</strong>.'
     - text: 'Our paper <strong>MM-PoisonRAG: Disrupting Multimodal RAG with Local and Global Knowledge Poisoning Attacks</strong> was accepted to <strong>ACL 2026</strong>.'
     - text: 'Our paper <strong>AdaPlanBench: Evaluating Adaptive Planning in Large Language Model Agents under World and User Constraints</strong> was accepted to <strong>COLM 2026</strong>.'
     - text: 'Our paper <strong>Constructive Distortion: Improving MLLMs with Attention-Guided Image Warping</strong> was accepted to <strong>ICLR 2026</strong>.'
-    - text: 'I received the <strong>Capital One Ph.D. Fellowship (2026–2027)</strong> at UIUC.'
-    - text: 'I’ll be in <strong>Atlanta for NeurIPS 2026</strong>!'
-    - text: 'I joined <strong>Meta</strong> in May as a <strong>Research Scientist Intern</strong>, working on language-guided world action models for smart glasses.'
     - text: 'Our paper <strong>MemGuard: Preventing Memory Contamination in Long-Term Memory-Augmented Large Language Models</strong> was accepted to <strong>EMNLP 2026 Findings</strong>.'
     - text: 'Our paper <strong>PEARL: Self-Evolving Assistant for Time Management with Reinforcement Learning</strong> was accepted to <strong>ACL 2026</strong>.'
       link: https://arxiv.org/abs/2601.11957
