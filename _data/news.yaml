@@ -1,40 +1,33 @@
 # Latest year first. Within a year, entries without announcement dates are not
 # assigned invented months. Sources: assets/cv/CV.pdf, _data/publications.yaml,
+# https://blender.cs.illinois.edu/publications/publication.json,
 # and the site owner's updates. Internship start months are preserved in text.
 - year: 2026
   items:
-    - text: 'The project page for <strong>Mixture of Layers</strong> is now live. I’ll be in <strong>Atlanta for NeurIPS 2026</strong>!'
-      link: https://wjdghks950.github.io/mol.github.io/
-      link_label: Explore Mixture of Layers
-    - text: 'Our <strong>PARTONOMY</strong> project page is now available.'
-      link: https://wjdghks950.github.io/partonomy.github.io/
-      link_label: Explore PARTONOMY
-    - text: 'Our paper <strong>Mixture of Layers: Dynamic Layer Routing for Visual Reasoning</strong> was accepted to <strong>NeurIPS 2026</strong>.'
-      link: https://wjdghks950.github.io/mol.github.io/
-      link_label: Project
-    - text: 'Our paper <strong>Pixel-Grounded Retrieval for Knowledgeable Large Multimodal Models (PixSearch)</strong> was accepted to <strong>NeurIPS 2026 @ VLM4RWD</strong>.'
-      award: Oral Presentation
-      link: https://arxiv.org/abs/2601.19060
-      link_label: Paper
+    - text: 'Our paper <strong>Advancing Creative Physical Intelligence in Large Multimodal Models</strong> was accepted to <strong>NeurIPS 2026</strong>.'
+    - text: 'Our paper <strong>CreativityBench: Evaluating Agent Creative Reasoning via Affordance-Based Tool Repurposing</strong> was accepted to <strong>COLM 2026</strong>.'
+    - text: 'Our paper <strong>MM-PoisonRAG: Disrupting Multimodal RAG with Local and Global Knowledge Poisoning Attacks</strong> was accepted to <strong>ACL 2026</strong>.'
+    - text: 'Our paper <strong>AdaPlanBench: Evaluating Adaptive Planning in Large Language Model Agents under World and User Constraints</strong> was accepted to <strong>COLM 2026</strong>.'
+    - text: 'Our paper <strong>Constructive Distortion: Improving MLLMs with Attention-Guided Image Warping</strong> was accepted to <strong>ICLR 2026</strong>.'
     - text: 'I received the <strong>Capital One Ph.D. Fellowship (2026–2027)</strong> at UIUC.'
+    - text: 'I’ll be in <strong>Atlanta for NeurIPS 2026</strong>!'
     - text: 'I joined <strong>Meta</strong> in May as a <strong>Research Scientist Intern</strong>, working on language-guided world action models for smart glasses.'
     - text: 'Our paper <strong>MemGuard: Preventing Memory Contamination in Long-Term Memory-Augmented Large Language Models</strong> was accepted to <strong>EMNLP 2026 Findings</strong>.'
     - text: 'Our paper <strong>PEARL: Self-Evolving Assistant for Time Management with Reinforcement Learning</strong> was accepted to <strong>ACL 2026</strong>.'
       link: https://arxiv.org/abs/2601.11957
       link_label: Paper
-    - text: 'Our paper <strong>ProMac: Language-Guided World Action Modeling for Single-View Egocentric Navigation</strong> is a preprint under review.'
 - year: 2025
   items:
-    - text: 'Our paper <strong>PARTONOMY: Large Multimodal Models with Part-Level Visual Understanding</strong> was accepted to <strong>NeurIPS 2025</strong>.'
-      award: Spotlight
-      link: https://wjdghks950.github.io/partonomy.github.io/
-      link_label: Project
+    - text: 'Our paper <strong>SYNTHIA: Novel Concept Design with Affordance Composition</strong> was accepted to <strong>ACL 2025</strong>.'
+    - text: 'Our paper <strong>Search and Detect: Training-Free Long Tail Object Detection via Web-Image Retrieval</strong> was accepted to <strong>CVPR 2025</strong>.'
+    - text: 'Our paper <strong>Aligning LLMs with Individual Preferences via Interaction</strong> was accepted to <strong>COLING 2025</strong>.'
     - text: 'I joined <strong>Meta</strong> in May as a <strong>Research Scientist Intern (Part-time Student Researcher)</strong>, working on pixel-level retrieval-augmented generation for multimodal models.'
     - text: 'Our paper <strong>Infogent: An Agent-Based Framework for Web Information Aggregation</strong> was accepted to <strong>NAACL 2025 Findings</strong>.'
       link: https://arxiv.org/abs/2410.19054
       link_label: Paper
 - year: 2024
   items:
+    - text: 'Our paper <strong>MIRACLE: An Online, Explainable Multimodal Interactive Concept Learning System</strong> was accepted to <strong>ACM Multimedia 2024 Demo and Video Program Track</strong>.'
     - text: 'Our paper <strong>Finer: Investigating and Enhancing Fine-Grained Visual Concept Recognition in Large Vision Language Models</strong> was accepted to <strong>EMNLP 2024</strong>.'
       link: https://arxiv.org/abs/2402.16315
       link_label: Paper

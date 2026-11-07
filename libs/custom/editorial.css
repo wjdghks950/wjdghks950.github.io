@@ -716,6 +716,9 @@ h1 {
   color: var(--accent);
   font-variant-numeric: tabular-nums;
 }
+.news-year.news-featured {
+  grid-template-columns: minmax(0, 1fr);
+}
 .news-year ul {
   list-style: none;
   margin: 0;

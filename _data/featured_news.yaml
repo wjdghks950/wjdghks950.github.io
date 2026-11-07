@@ -1,0 +1,13 @@
+# Featured papers in the order requested by the site owner.
+- text: 'Our paper <strong>Mixture of Layers: Dynamic Layer Routing for Visual Reasoning</strong> was accepted to <strong>NeurIPS 2026</strong>.'
+  link: https://wjdghks950.github.io/mol.github.io/
+  link_label: Project
+- text: 'Our paper <strong>PixSearch: Region-Grounded Retrieval for Knowledgeable Large Multimodal Models</strong> was accepted to <strong>NeurIPS 2026 @ VLM4RWD</strong>.'
+  award: Oral Presentation
+  link: https://arxiv.org/abs/2601.19060
+  link_label: Paper
+- text: 'Our paper <strong>PARTONOMY: Large Multimodal Models with Part-Level Visual Understanding</strong> was accepted to <strong>NeurIPS 2025</strong>.'
+  award: Spotlight
+  link: https://wjdghks950.github.io/partonomy.github.io/
+  link_label: Project
+- text: 'Our paper <strong>ProMac: Language-Guided World Action Modeling for Single-View Egocentric Navigation</strong> is a <strong>preprint (2026)</strong>.'
