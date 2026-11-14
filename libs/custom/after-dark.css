@@ -31,7 +31,8 @@ nav a { color: var(--ink); }
   grid-column: 2;
   grid-row: 1 / 4;
   align-self: center;
-  width: 100%; height: auto; aspect-ratio: 1;
+  justify-self: center;
+  width: 80%; height: auto; aspect-ratio: 1;
   max-width: 100%; object-fit: cover;
   border-radius: 4px;
   box-shadow: 16px 16px 0 #223e42;
@@ -80,7 +81,7 @@ a.honor-card:hover { border-color: #efd082; }
 @media (max-width: 600px) {
   .shell { width: calc(100% - 40px); }
   .intro { grid-template-columns: minmax(0, 1fr); padding-top: 32px; gap: 24px; }
-  .intro-portrait { grid-column: 1; grid-row: 1; width: 160px; height: 160px; }
+  .intro-portrait { grid-column: 1; grid-row: 1; justify-self: start; width: 140px; height: 140px; }
   .intro-heading { grid-column: 1; grid-row: 2; margin: 0; }
   .intro h1 { font-size: 54px; }
   .intro-tagline { font-size: 22px; }
