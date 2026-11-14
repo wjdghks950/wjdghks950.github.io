@@ -3,13 +3,15 @@ layout: default
 ---
 <section class="intro" id="about" aria-labelledby="about-title">
   <div class="intro-heading">
-    <h1 id="about-title">From perception to understanding.</h1>
+    <p class="eyebrow">UIUC / BLENDER Lab · Ph.D. candidate</p>
+    <h1 id="about-title">Perceive.<br>Reason. Act.</h1>
+    <p class="intro-tagline">Jeonghwan Kim · Multimodal AI researcher</p>
   </div>
   <img class="intro-portrait" src="{{ site.data.main_info.profile_pic | relative_url }}" alt="Jeonghwan Kim" width="800" height="800" fetchpriority="high">
   <div class="intro-copy">
     <p>I’m Jeonghwan Kim, a Ph.D. candidate at <a href="https://blender.cs.illinois.edu/">UIUC’s BLENDER Lab</a>, advised by <a href="https://blender.cs.illinois.edu/hengji.html">Professor Heng Ji</a>. I am a recipient of the Capital One Ph.D. Fellowship (2026–2027). My research is also supported by HERE Technologies. I worked with <a href="https://shanemoon.com/">Shane Moon</a> and <a href="https://www.lunadong.com/">Xin Luna Dong</a> at Meta Reality Labs and <a href="https://scholar.google.com/citations?user=1Cc9d6gAAAAJ&amp;hl=en">Emre Eftelioglu</a> at Amazon.</p>
     <p>I study multimodal foundation models that perceive, ground, and reason about fine-grained spatial and temporal information. My work connects visual grounding, cross-modal alignment, and knowledge integration to make these systems more accurate and interpretable. Recently, I’ve been extending this work to visually grounded action policies for embodied AI and robotics.</p>
-    <p>I’m on the <strong>industry and academic job market for 2027</strong>. <a href="mailto:{{ site.data.main_info.email | replace: ' [AT] ', '@' }}">Get in touch</a> if you would like to connect.</p>
+    <p class="job-market">I’m on the <strong>industry and academic job market for 2027</strong>. <a href="mailto:{{ site.data.main_info.email | replace: ' [AT] ', '@' }}">Get in touch</a> if you would like to connect.</p>
     <p><strong>Research keywords:</strong> multimodal LLMs, multimodal post-training, visual tokenization &amp; memory, vision-language-action.</p>
   </div>
   <div class="intro-links">
@@ -21,10 +23,33 @@ layout: default
   </div>
 </section>
 
+<div class="affiliations" aria-label="Affiliations and experience">
+  {% for name in site.data.home_affiliations %}
+  <span>{% include organization.html name=name %}</span>
+  {% endfor %}
+</div>
+
 <section class="news-section" id="news" aria-labelledby="news-title">
   <div class="news-heading">
-    <div><p class="eyebrow">01 / Updates</p><h2 id="news-title">News</h2></div>
-    <p id="news-hint">Featured first · scroll for more <span aria-hidden="true">↓</span></p>
+    <div><p class="eyebrow">01 / Updates</p><h2 id="news-title">News &amp; recognition</h2></div>
+    <p id="news-hint">Honors &amp; highlights first <span aria-hidden="true">↓</span></p>
+  </div>
+  <div class="honors" aria-label="Awards and recognition">
+    <article class="honor-card">
+      <p class="honor-label">Fellowship · 2026–2027</p>
+      <h3>Capital One</h3>
+      <p>Ph.D. Fellowship at UIUC</p>
+    </article>
+    <a class="honor-card" href="https://wjdghks950.github.io/partonomy.github.io/">
+      <p class="honor-label">Spotlight · NeurIPS 2025</p>
+      <h3>PARTONOMY ↗</h3>
+      <p>Part-level visual understanding</p>
+    </a>
+    <a class="honor-card" href="https://arxiv.org/abs/2601.19060">
+      <p class="honor-label">Oral · NeurIPS 2026 Workshop</p>
+      <h3>PixSearch ↗</h3>
+      <p>VLM4RWD · Region-grounded retrieval</p>
+    </a>
   </div>
   <div class="news-feed" role="region" aria-labelledby="news-title" aria-describedby="news-hint" tabindex="0">
     <div class="news-year news-featured">
@@ -38,6 +63,8 @@ layout: default
         {% endfor %}
       </ul>
     </div>
+    <details class="news-archive">
+      <summary>More news &amp; updates <span aria-hidden="true">↓</span></summary>
     {% assign news_years = site.data.news | sort: "year" | reverse %}
     {% for group in news_years %}
     <div class="news-year">
@@ -52,6 +79,7 @@ layout: default
       </ul>
     </div>
     {% endfor %}
+    </details>
   </div>
 </section>
 
