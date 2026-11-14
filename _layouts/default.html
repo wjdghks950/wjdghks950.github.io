@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,6 +7,7 @@
   <meta name="description" content="Jeonghwan Kim — Ph.D. candidate at UIUC researching multimodal foundation models, fine-grained visual understanding, and embodied AI.">
   <meta name="author" content="{{ site.data.main_info.name | escape }}">
   <meta name="theme-color" content="#0d1421">
+  <script src="{{ '/libs/custom/theme.js' | relative_url }}"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
@@ -26,6 +27,7 @@
         <a href="{{ '/#experience' | relative_url }}">Experience</a>
         <a class="nav-cv" href="{{ site.data.main_info.cv | relative_url }}">CV <span aria-hidden="true">↗</span></a>
       </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to day mode" hidden><span class="theme-icon" aria-hidden="true">☀️</span><span class="theme-label">Day mode</span></button>
     </div>
   </header>
   <main class="shell" id="main">
