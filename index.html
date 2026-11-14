@@ -90,7 +90,7 @@ layout: default
     {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
     {% for paper in selected_papers %}
     {% assign primary_link = paper.project | default: paper.paper_pdf %}
-    <article class="publication">
+    <article class="publication{% if paper.award %} publication-awarded{% endif %}">
       {% if primary_link %}
       <a class="paper-image" href="{{ primary_link }}" aria-label="View {{ paper.title | escape }}">
       {% else %}

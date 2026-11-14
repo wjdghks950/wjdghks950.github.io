@@ -66,22 +66,29 @@ a.honor-card:hover { border-color: var(--gold); }
 .news-archive { margin: 24px 0; }
 .news-archive summary { cursor: pointer; color: var(--accent); font-weight: 700; padding: 12px 0; }
 .news-archive summary:hover { text-decoration: underline; }
-.publication-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
-.publication { display: flex; flex-direction: column; gap: 22px; padding: 24px; background: var(--soft); border: 1px solid var(--line); border-radius: 8px; align-items: stretch; }
-.paper-image { display: flex; align-items: center; justify-content: center; width: 100%; border: 0; padding: 16px; border-radius: 6px; }
-.paper-image img { height: 210px; width: 100%; object-fit: contain; }
-.publication h3 { font-size: 23px; }
+.publication-list { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; }
+.publication {
+  display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: 24px;
+  padding: 20px 16px; background: transparent; border: 0;
+  border-top: 1px solid var(--line); border-left: 3px solid transparent;
+  border-radius: 0; align-items: center;
+}
+.publication-awarded { border-left-color: var(--gold); background: var(--soft); }
+.paper-image { display: flex; align-items: center; justify-content: center; width: 100%; border: 0; padding: 8px; border-radius: 4px; }
+.paper-image img { height: 96px; width: 100%; object-fit: contain; }
+.paper-copy { min-width: 0; }
+.publication h3 { font-size: 19px; line-height: 1.35; }
 .venue-conference { background: transparent; color: var(--accent); border: 0; padding: 0; }
-.award-badge { background: #efd082; color: #302408; border: 0; font-weight: 700; }
+.award-badge { background: #efd082; color: #302408; border: 0; font-size: 13px; padding: 4px 9px; font-weight: 700; }
 .authors { color: var(--muted); }
-.paper-links { margin-top: 14px; }
+.paper-links { margin-top: 6px; }
 .experience-row h3 { font-weight: 700; }
 @media (max-width: 800px) {
   .intro { column-gap: 32px; grid-template-columns: minmax(0, 1fr) 240px; }
   .intro h1 { font-size: 60px; }
   .honor-card { padding: 18px; }
   .honor-card h3 { font-size: 21px; }
-  .publication { padding: 18px; }
+  .publication { grid-template-columns: 120px minmax(0, 1fr); padding: 18px 12px; gap: 18px; }
 }
 @media (max-width: 600px) {
   .shell { width: calc(100% - 40px); }
@@ -97,7 +104,9 @@ a.honor-card:hover { border-color: var(--gold); }
   .affiliations > span { font-size: 17px; }
   .news-heading { padding: 0 0 20px; }
   .news-feed { max-height: none; padding: 0; }
-  .paper-image img { height: 190px; }
+  .publication { grid-template-columns: minmax(0, 1fr); gap: 0; padding: 18px 12px; }
+  .publication .paper-image { display: none; }
+  .publication h3 { font-size: 18px; }
 }
 
 /* Day mode keeps the same layout with readable teal and amber accents. */
