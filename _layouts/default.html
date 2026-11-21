@@ -6,6 +6,10 @@
   <title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.data.main_info.name | escape }}</title>
   <meta name="description" content="Jeonghwan Kim — Ph.D. candidate at UIUC researching multimodal foundation models, fine-grained visual understanding, and embodied AI.">
   <meta name="author" content="{{ site.data.main_info.name | escape }}">
+  {% if page.profile_schema %}
+  <link rel="canonical" href="https://wjdghks950.github.io/">
+  {% include person-schema.html %}
+  {% endif %}
   <meta name="theme-color" content="#0d1421">
   <script src="{{ '/libs/custom/theme.js' | relative_url }}"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
